@@ -43,10 +43,13 @@ function applyFilters() {
     const tag = f.tag      || '';
     const cat = f.category || '';
 
+    const searchVal = document.getElementById('searchInput').value.toLowerCase().trim();
+    
     const segMatch = segValues.length === 0 || segValues.some(s => tag.includes(s));
     const catMatch = catValues.length === 0 || catValues.includes(cat);
+    const searchMatch = searchVal === '' || f.name.toLowerCase().includes(searchVal);
 
-    card.style.display = (segMatch && catMatch) ? '' : 'none';
+    card.style.display = (segMatch && catMatch && searchMatch) ? '' : 'none';
   });
 
   // Mostra/esconde seções de categoria conforme visibilidade
@@ -73,7 +76,7 @@ function applyFilters() {
     `<button onclick="uncheckFilter(this,'${c.value}')">×</button></span>`
   ).join('');
 
-  document.getElementById('btnClearFilters').style.display = allChecks.length ? '' : 'none';
+  document.getElementById('btnClearFilters').style.display = (allChecks.length || document.getElementById('searchInput').value) ? '' : 'none';
 }
 
 // ── Remove um filtro pelo valor ───────────────────────────────
@@ -84,6 +87,7 @@ function uncheckFilter(btn, val) {
 
 // ── Limpa todos os filtros ────────────────────────────────────
 function clearFilters() {
+  document.getElementById('searchInput').value = '';
   document.querySelectorAll('#filterBar input[type=checkbox]').forEach(c => c.checked = false);
   applyFilters();
 }

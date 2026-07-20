@@ -7,7 +7,16 @@
 // ── Scroll reveal ─────────────────────────────────────────────
 const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(en => {
-    if (en.isIntersecting) en.target.classList.add('visible');
+    if (en.isIntersecting) {
+      en.target.classList.add('visible');
+      if (en.target.classList.contains('fabrics-grid') || en.target.classList.contains('faq-grid')) {
+        const children = Array.from(en.target.children);
+        children.forEach((child, index) => {
+           const delayIndex = Math.min(index, 20); // max delay
+           child.style.transitionDelay = `${delayIndex * 0.08}s`;
+        });
+      }
+    }
   });
 }, { threshold: 0.07 });
 
@@ -58,5 +67,14 @@ window.addEventListener('DOMContentLoaded', () => {
   const fabricKey  = params.get('fabric');
   if (fabricKey && FABRICS[fabricKey]) {
     setTimeout(() => openFabric(fabricKey), 300);
+  }
+});
+// ── Scroll to Top Visibility ──────────────────────────────────
+window.addEventListener('scroll', () => {
+  const btn = document.getElementById('scrollTopBtn');
+  if (window.scrollY > 800) {
+    btn.classList.add('visible');
+  } else {
+    btn.classList.remove('visible');
   }
 });

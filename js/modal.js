@@ -175,7 +175,13 @@ function renderColorGrid(f, key) {
       chip.title = cor.name;
 
       const blockStyles = Array.isArray(cor.hex)
-        ? `background: linear-gradient(90deg, ${cor.hex[0]} 50%, ${cor.hex[1]} 50%);`
+        ? `background: linear-gradient(90deg, ${cor.hex
+            .flatMap((hex, idx) => {
+              const start = (idx / cor.hex.length) * 100;
+              const end = ((idx + 1) / cor.hex.length) * 100;
+              return [`${hex} ${start}%`, `${hex} ${end}%`];
+            })
+            .join(', ')});`
         : `background: ${cor.hex};`;
 
       chip.innerHTML = `
@@ -222,6 +228,9 @@ function renderColorGrid(f, key) {
 function openFabric(key) {
   const f = FABRICS[key];
   if (!f) return;
+
+  // Marca o tecido atual no modal para a sacola de orçamento
+  document.getElementById('fabricModal').dataset.currentKey = key;
 
   /* Capa — usa f.cover se definido, senão page-01.jpg */
   const coverImg = document.getElementById('fabricModalCover');
@@ -280,11 +289,17 @@ function openFabric(key) {
   bookBtn.href   = `book.html?category=${f.category}&fabric=${key}`;
   bookBtn.style.display = 'inline-flex';
 
+  /* Botão de WhatsApp é gerenciado pela sacola (cart.js) */
+  // fabricModalWpp.href é ignorado — cart.js sobrescreve o onclick
+
   /* Grid de cores ou fotos */
   renderColorGrid(f, key);
 
   document.getElementById('fabricModal').classList.add('open');
   document.body.style.overflow = 'hidden';
+
+  // Atualiza botão da sacola para este tecido
+  if (typeof refreshModalCartBtn === 'function') refreshModalCartBtn();
 }
 
 /* ── Fecha modal ─────────────────────────────────────────────── */

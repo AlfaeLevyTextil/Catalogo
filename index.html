@@ -3,10 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Catálogo online da Alfa & Levy Têxtil. Especialistas em tecidos de alta qualidade para moda praia, fitness e casual. Conheça nossas linhas de Lisos, Texturizados, Estampados e Tramas Abertas.">
+<meta name="keywords" content="tecidos, moda praia, moda fitness, atacado de tecidos, rosset, texneo, tecidos lisos, tecidos estampados, alfa e levy">
 <title>Alfa & Levy Têxtil — Catálogo de Tecidos</title>
 <link rel="icon" type="image/png" href="./images/icons/iconn.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/style.css">
@@ -22,6 +26,8 @@
   <symbol id="ico-arrow" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/></symbol>
   <symbol id="ico-location" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></symbol>
   <symbol id="ico-map" viewBox="0 0 24 24"><path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/></symbol>
+  <symbol id="ico-cart" viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></symbol>
+
 </svg>
 
 <!-- ═══════════════════════════════════════
@@ -37,15 +43,21 @@
     <li><div class="nav-sep"></div></li>
     <li>
       <a href="book.html" class="nav-plain nav-book">
-        <svg style="width:13px;height:13px;fill:currentColor;vertical-align:middle;margin-right:5px" viewBox="0 0 24 24"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/></svg>Book
+        <svg style="width:13px;height:13px;fill:currentColor;vertical-align:middle;margin-right:5px" viewBox="0 0 24 24"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/>
+</svg>Book
       </a>
     </li>
     <li><a href="#contato" class="nav-plain">Contato</a></li>
   </ul>
   <div class="nav-social">
-    <a href="https://www.instagram.com/levytextil456?igsh=MTBrZHpmNmk1cnc5Yg==" target="_blank" title="Instagram Levy"><svg><use href="#ico-instagram"/></svg></a>
-    <a href="https://www.instagram.com/alfatextil/" target="_blank" title="Instagram Alfa"><svg><use href="#ico-instagram"/></svg></a>
-    <a href="https://wa.me/5511957717470" target="_blank" title="WhatsApp"><svg><use href="#ico-whatsapp"/></svg></a>
+    
+    
+    <a href="https://www.instagram.com/levytextil456?igsh=MTBrZHpmNmk1cnc5Yg==" target="_blank" title="Instagram Levy"><svg><use href="#ico-instagram"/>
+</svg></a>
+    <a href="https://www.instagram.com/alfatextil/" target="_blank" title="Instagram Alfa"><svg><use href="#ico-instagram"/>
+</svg></a>
+    <a href="https://wa.me/5511957717470" target="_blank" title="WhatsApp"><svg><use href="#ico-whatsapp"/>
+</svg></a>
   </div>
 </nav>
 
@@ -86,17 +98,75 @@
     </div>
   </div>
   <div class="hero-actions">
-    <a href="#lisos" class="btn-primary"><svg><use href="#ico-arrow"/></svg> Ver Catálogo</a>
+    <a href="#lisos" class="btn-primary"><svg><use href="#ico-arrow"/>
+</svg> Ver Catálogo</a>
     <a href="book.html" class="btn-book">
-      <svg style="width:14px;height:14px;fill:currentColor;flex-shrink:0" viewBox="0 0 24 24"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/></svg> Ver Book
+      <svg style="width:14px;height:14px;fill:currentColor;flex-shrink:0" viewBox="0 0 24 24"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/>
+</svg> Ver Book
     </a>
-    <a href="https://wa.me/5511957717470?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20tecidos." target="_blank" class="btn-secondary"><svg><use href="#ico-whatsapp"/></svg> Fale Conosco</a>
+    <a href="https://wa.me/5511957717470?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20tecidos." target="_blank" class="btn-secondary"><svg><use href="#ico-whatsapp"/>
+</svg> Fale Conosco</a>
   </div>
   <div class="hero-cats">
     <a href="#lisos" class="hero-cat">Lisos</a>
     <a href="#texturizados" class="hero-cat">Texturizados</a>
     <a href="#estampados" class="hero-cat">Estampados</a>
     <a href="#tramas" class="hero-cat">Tramas Abertas</a>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     LANÇAMENTOS
+════════════════════════════════════════ -->
+<section class="launches-section">
+  <div class="cat-section-header reveal" style="padding: 0 5vw; margin-top: 10px;">
+    <div>
+      <span class="cat-section-label">Novidades</span>
+      <h2 class="cat-section-title"><em>Lançamentos</em></h2>
+    </div>
+    <div class="cat-section-line"></div>
+  </div>
+  
+  <div class="launches-scroll reveal">
+    <div class="launches-track">
+      <!-- Card 1 -->
+      <div class="fabric-card" style="min-width: 180px; height: 250px;" data-key="JACQUARD_VICHY" onclick="openFabric('JACQUARD_VICHY')">
+        <img src="images/tecidos/TEXTURIZADOS/JACQUARD_VICHY/page-01.jpg" alt="Tecido Jacquard Vichy" loading="lazy">
+        <div class="fabric-overlay"></div>
+        <div class="fabric-info">
+          <span class="fabric-name">Jacquard Vichy</span>
+          <span class="fabric-tag">Lançamento</span>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="fabric-card" style="min-width: 180px; height: 250px;" data-key="JACQUARD_ZIGONI" onclick="openFabric('JACQUARD_ZIGONI')">
+        <img src="images/tecidos/TEXTURIZADOS/JACQUARD_ZIGONI/page-01.jpg" alt="Tecido Jacquard Zigoni" loading="lazy">
+        <div class="fabric-overlay"></div>
+        <div class="fabric-info">
+          <span class="fabric-name">Jacquard Zigoni</span>
+          <span class="fabric-tag">Lançamento</span>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="fabric-card" style="min-width: 180px; height: 250px;" data-key="CIRRE" onclick="openFabric('CIRRE')">
+        <img src="images/tecidos/LISOS/CIRRE/page-01.jpg" alt="Tecido Cirre" loading="lazy">
+        <div class="fabric-overlay"></div>
+        <div class="fabric-info">
+          <span class="fabric-name">Cirré</span>
+          <span class="fabric-tag">Lançamento</span>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="fabric-card" style="min-width: 180px; height: 250px;" data-key="MACRAME" onclick="openFabric('MACRAME')">
+        <img src="images/tecidos/TRAMAS/MACRAME/page-01.jpg" alt="Tecido Macrame" loading="lazy">
+        <div class="fabric-overlay"></div>
+        <div class="fabric-info">
+          <span class="fabric-name">Macramê</span>
+          <span class="fabric-tag">Lançamento</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -109,6 +179,10 @@
   <div class="filter-bar-inner">
     <span class="filter-bar-label">Filtrar por:</span>
     <div class="filter-groups">
+
+      <div class="filter-group">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Buscar tecido..." onkeyup="applyFilters()">
+      </div>
 
       <div class="filter-group">
         <button class="filter-group-toggle" onclick="toggleFilterGroup(this)">
@@ -160,328 +234,355 @@
 
 
     <div class="fabric-card" data-key="ATLETIKA" onclick="openFabric('ATLETIKA')">
-      <img src="images/tecidos/LISOS/ATLETIKA/page-01.jpg" alt="Atletika" loading="lazy">
+      <img src="images/tecidos/LISOS/ATLETIKA/page-01.jpg" alt="Tecido Atletika - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 10 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Atletika</span>
         <span class="fabric-tag">Fitness · Lingerie</span>
         <p class="fabric-desc">Base em microfibra de superfície brilhante perolada. De composição bi-elástica, comprime de forma ajustada, ou seja, somente onde é exigida essa função. Oferece compressão muscular perfeita, diminuindo as vibrações e as tensões musculares, melhorando o desempenho atlético. Indicado também para o segmento de shapewear, combinando funcionalidade e estilo.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
      <div class="fabric-card" data-key="CIRRE" onclick="openFabric('CIRRE')">
-      <img src="images/tecidos/LISOS/CIRRE/page-01.jpg" alt="Cirré" loading="lazy">
+      <img src="images/tecidos/LISOS/CIRRE/page-01.jpg" alt="Tecido Cirré - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Cirré</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CORTA_VENTO_AMASSADO" onclick="openFabric('CORTA_VENTO_AMASSADO')">
-      <img src="images/tecidos/LISOS/CORTA_VENTO_AMASSADO/page-01.jpg" alt="Corta Vento Amassado" loading="lazy">
+      <img src="images/tecidos/LISOS/CORTA_VENTO_AMASSADO/page-01.jpg" alt="Tecido Corta Vento Amassado - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Corta Vento Amassado</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CORTA_VENTO_REFLETIVO" onclick="openFabric('CORTA_VENTO_REFLETIVO')">
-      <img src="images/tecidos/LISOS/CORTA_VENTO_REFLETIVO/page-01.jpg" alt="Corta Vento Refletivo" loading="lazy">
+      <img src="images/tecidos/LISOS/CORTA_VENTO_REFLETIVO/page-01.jpg" alt="Tecido Corta Vento Refletivo - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Corta Vento Refletivo</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="DEMI" onclick="openFabric('DEMI')">
-      <img src="images/tecidos/LISOS/DEMI/page-01.jpg" alt="Demi compression" loading="lazy">
+      <img src="images/tecidos/LISOS/DEMI/page-01.jpg" alt="Tecido Demi compression - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 20 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Demi Compression</span>
-        <span class="fabric-tag">Fitness · Moda Casual</span>
-        <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-tag">Fitness · Lingerie</span>
+        <p class="fabric-desc">Versátil e sofisticada, é ideal para peças ajustadas de performance, além de blusões, jaquetas e calças esportivas ou casuais, trazendo modernidade e inovação ao visual.</p>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     
      <div class="fabric-card" data-key="DRY_FIT" onclick="openFabric('DRY_FIT')">
-      <img src="images/tecidos/LISOS/DRY_FIT/page-01.jpg" alt="Dry Fit" loading="lazy">
+      <img src="images/tecidos/LISOS/DRY_FIT/page-01.jpg" alt="Tecido Dry Fit - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">9 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Dry Fit</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
      <div class="fabric-card" data-key="DRY_FIT_LISTRADO" onclick="openFabric('DRY_FIT_LISTRADO')">
-      <img src="images/tecidos/LISOS/DRY_FIT_LISTRADO/page-01.jpg" alt="Dry Fit Listrado" loading="lazy">
+      <img src="images/tecidos/LISOS/DRY_FIT_LISTRADO/page-01.jpg" alt="Tecido Dry Fit Listrado - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">9 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Dry Fit Listrado</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="DRY_SPORT" onclick="openFabric('DRY_SPORT')">
-      <img src="images/tecidos/LISOS/DRY_SPORT/page-01.jpg" alt="Dry Sport" loading="lazy">
+      <img src="images/tecidos/LISOS/DRY_SPORT/page-01.jpg" alt="Tecido Dry Sport - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 20 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Dry Sport</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="DRY_TECH" onclick="openFabric('DRY_TECH')">
-      <img src="images/tecidos/LISOS/DRY_TECH/page-01.jpg" alt="Dry Tech" loading="lazy">
+      <img src="images/tecidos/LISOS/DRY_TECH/page-01.jpg" alt="Tecido Dry Tech - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">8 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Dry Tech</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="FLICKER_METALIZADO" onclick="openFabric('FLICKER_METALIZADO')">
-      <img src="images/tecidos/LISOS/FLICKER_METALIZADO/page-01.jpg" alt="Flicker Metalizado" loading="lazy">
+      <img src="images/tecidos/LISOS/FLICKER_METALIZADO/page-01.jpg" alt="Tecido Flicker Metalizado - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">8 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Flicker Metalizado</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="FORRO_COLMEIA" onclick="openFabric('FORRO_COLMEIA')">
-      <img src="images/tecidos/LISOS/FORRO_COLMEIA/page-01.jpg" alt="Forro Colmeia" loading="lazy">
+      <img src="images/tecidos/LISOS/FORRO_COLMEIA/page-01.jpg" alt="Tecido Forro Colmeia - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">3 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Forro Colmeia</span>
         <span class="fabric-tag">Forro</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="FORRO_TRADICIONAL" onclick="openFabric('FORRO_TRADICIONAL')">
-      <img src="images/tecidos/LISOS/FORRO_TRADICIONAL/page-01.jpg" alt="Forro Tradicional" loading="lazy">
+      <img src="images/tecidos/LISOS/FORRO_TRADICIONAL/page-01.jpg" alt="Tecido Forro Tradicional - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Forro Tradicional</span>
         <span class="fabric-tag">Forro</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="SANTA_CONSTANCIA" onclick="openFabric('SANTA_CONSTANCIA')">
-      <img src="images/tecidos/LISOS/SANTA_CONSTANCIA/page-01.jpg" alt="Santa Constância" loading="lazy">
+      <img src="images/tecidos/LISOS/SANTA_CONSTANCIA/page-01.jpg" alt="Tecido Santa Constância - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">15 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Light Santa Constância</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Microfibra com microporos para secagem ultrarrápida. Parceiro ideal para exercícios aeróbicos e corridas.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LIRUS" onclick="openFabric('LIRUS')">
-      <img src="images/tecidos/LISOS/LIRUS/page-01.jpg" alt="Lirus" loading="lazy">
+      <img src="images/tecidos/LISOS/LIRUS/page-01.jpg" alt="Tecido Lirus - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">11 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Lirus Dry Fit</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Leveza e respirabilidade com efeito furadinho. Ideal para t-shirts, regatas e recortes estratégicos.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
       <div class="fabric-card" data-key="LUNA" onclick="openFabric('LUNA')">
-      <img src="images/tecidos/LISOS/LUNA/page-01.jpg" alt="Luna" loading="lazy">
+      <img src="images/tecidos/LISOS/LUNA/page-01.jpg" alt="Tecido Luna - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 90 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Luna</span>
         <span class="fabric-tag">Fitness · Lingerie · Moda Casual · Moda Praia</span>
         <p class="fabric-desc">Microfibra com microporos para secagem ultrarrápida. Parceiro ideal para exercícios aeróbicos e corridas.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LYCRA_5058" onclick="openFabric('LYCRA_5058')">
-      <img src="images/tecidos/LISOS/LYCRA_5058/page-01.jpg" alt="Lycra 5058" loading="lazy">
+      <img src="images/tecidos/LISOS/LYCRA_5058/page-01.jpg" alt="Tecido Lycra 5058 - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">10 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Lycra 5058</span>
         <span class="fabric-tag">Moda Praia</span>
         <p class="fabric-desc">Produto clássico para linha praia desenvolvido em poliamida aliado ao conforto do elastano. Pensado para linha de comodities, reúne um conjunto de estratégias para torná-lo uma ótima opção do segmento, em determinadas peças pode ser utilizado sem forro. Sua gramatura o torna encorpado e com ajuste perfeito ao corpo.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LYCRA_5371" onclick="openFabric('LYCRA_5371')">
-      <img src="images/tecidos/LISOS/LYCRA_5371/page-01.jpg" alt="Lycra 5371" loading="lazy">
+      <img src="images/tecidos/LISOS/LYCRA_5371/page-01.jpg" alt="Tecido Lycra 5371 - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 40 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Lycra 5371</span>
         <span class="fabric-tag">Fitness · Moda Casual · Moda Praia</span>
         <p class="fabric-desc">Clássico consolidado na moda praia, esse artigo tem estabilidade dimensional, conforto, power e toque macio. Extremamente resistente não deforma, é durável por se tratar de um tecido de Ketten. Indicado também para peças do segmento esportivo que exijam conforto e média compressão.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
      <div class="fabric-card" data-key="MICROFIBRA_JERSINYL" onclick="openFabric('MICROFIBRA_JERSINYL')">
-      <img src="images/tecidos/LISOS/MICROFIBRA_JERSINYL/page-01.jpg" alt="Microfibra Jersinyl" loading="lazy">
+      <img src="images/tecidos/LISOS/MICROFIBRA_JERSINYL/page-01.jpg" alt="Tecido Microfibra Jersinyl - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 90 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Microfibra Jersinyl</span>
         <span class="fabric-tag">Ligerie · Moda Praia</span>
         <p class="fabric-desc">Tecido desenvolvido em microfibra com visual levemente brilhante, adere a pele com maciez e suave compressão.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
       <div class="fabric-card" data-key="NAGOYA" onclick="openFabric('NAGOYA')">
-      <img src="images/tecidos/LISOS/NAGOYA/page-01.jpg" alt="Nagoya" loading="lazy">
+      <img src="images/tecidos/LISOS/NAGOYA/page-01.jpg" alt="Tecido Nagoya - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 20 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Nagoya</span>
         <span class="fabric-tag">Fitness · Moda Praia</span>
         <p class="fabric-desc">Em uma base opaca, o artigo Nagoya oferece não apenas uma excelente elasticidade, mas também alta cobertura garantindo peças com menor transparência. Uma escolha ideal para quem busca conforto, estilo e desempenho em roupas esportivas e de moda. Sua composição cuidadosamente elaborada proporciona sensação agradável ao toque, oferece suporte e liberdade de movimento durante as atividades físicas e para as mais diversas peças do segmento de moda.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
      <div class="fabric-card" data-key="NAKAY" onclick="openFabric('NAKAY')">
-      <img src="images/tecidos/LISOS/NAKAY/page-01.jpg" alt="Nakay" loading="lazy">
+      <img src="images/tecidos/LISOS/NAKAY/page-01.jpg" alt="Tecido Nakay - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 20 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Nakay</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Microfibra com microporos para secagem ultrarrápida. Parceiro ideal para exercícios aeróbicos e corridas.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="NEW_TRIP" onclick="openFabric('NEW_TRIP')">
-      <img src="images/tecidos/LISOS/NEW_TRIP/page-01.jpg" alt="New Trip" loading="lazy">
+      <img src="images/tecidos/LISOS/NEW_TRIP/page-01.jpg" alt="Tecido New Trip - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 40 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">New Trip Dry Fit</span>
         <span class="fabric-tag">Fitness</span>
         <p class="fabric-desc">Parceiro ideal para todos os esportes, o artigo confere textura suave e foi desenvolvido com a microfibra de poliamida juntamente com um fio ultrafino, que é responsável pela formação dos microporos. Tem excelente respirabilidade que ajuda na evaporação natural da transpiração, deixando a pele seca e fresca durante os exercícios. É um artigo de rápida secagem e perfeito para a confecção de regatas e camisetas soltinhas, principalmente para os exercícios aeróbicos e de corridas.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="NEW_ZELAND" onclick="openFabric('NEW_ZELAND')">
-      <img src="images/tecidos/LISOS/NEW_ZELAND/page-01.jpg" alt="New Zeland" loading="lazy">
+      <img src="images/tecidos/LISOS/NEW_ZELAND/page-01.jpg" alt="Tecido New Zeland - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 20 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">New Zeland</span>
         <span class="fabric-tag">Fitness</span>
         <p class="fabric-desc">Com toque suave e super confortável, o tecido segue cada movimento do corpo com facilidade. Desenvolvido com a microfibra de poliamida juntamente com a força do elastano, o artigo exerce ótima compressão sobre a musculatura, confere elasticidade e power adequados para valorizar a silhueta sem apertar ou causar desconforto. Ideal para a confecção de peças esportivas como leggings, bermudas e tops, assim como roupas confortáveis para o lazer.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="SATURNO" onclick="openFabric('SATURNO')">
-      <img src="images/tecidos/LISOS/SATURNO/page-01.jpg" alt="Saturno" loading="lazy">
+      <img src="images/tecidos/LISOS/SATURNO/page-01.jpg" alt="Tecido Saturno - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">60 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Saturno</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Microfibra com microporos para secagem ultrarrápida. Parceiro ideal para exercícios aeróbicos e corridas.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     
     <div class="fabric-card" data-key="SUPLEX_POWER" onclick="openFabric('SUPLEX_POWER')">
-      <img src="images/tecidos/LISOS/SUPLEX_POWER/page-01.jpg" alt="Suplex Power Light" loading="lazy">
+      <img src="images/tecidos/LISOS/SUPLEX_POWER/page-01.jpg" alt="Tecido Suplex Power Light - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 40 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Suplex Power Light</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Microfibra com microporos para secagem ultrarrápida. Parceiro ideal para exercícios aeróbicos e corridas.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="TRILOBAL_BEACH" onclick="openFabric('TRILOBAL_BEACH')">
-      <img src="images/tecidos/LISOS/TRILOBAL_BEACH/page-01.jpg" alt="Trilobal Beach" loading="lazy">
+      <img src="images/tecidos/LISOS/TRILOBAL_BEACH/page-01.jpg" alt="Tecido Trilobal Beach - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 90 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Trilobal Beach</span>
         <span class="fabric-tag">Fitness · Lingerie · Moda Casual · Moda Praia</span>
         <p class="fabric-desc">Composto por poliamida brilhante trilobal, o artigo tem visual sofisticado de brilho iridescente. Com elasticidade em ambos os sentidos (Biway), alonga sem deformar.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="TRILOBAL_FIT" onclick="openFabric('TRILOBAL_FIT')">
-      <img src="images/tecidos/LISOS/TRILOBAL_FIT/page-01.jpg" alt="Trilobal Fit" loading="lazy">
+      <img src="images/tecidos/LISOS/TRILOBAL_FIT/page-01.jpg" alt="Tecido Trilobal Fit - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 90 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Trilobal Fit</span>
         <span class="fabric-tag">Fitness</span>
         <p class="fabric-desc">Desenvolvido em fio brilhante trilobal, tem o peso e o power acertados para uma peça de legging. Um artigo que nasceu para se tornar uma das bases comodities com brilho do fitness para peças que precisam de uma certa compressão para se ajustar ao corpo com conforto e segurança.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
     <!-- ── ADICIONE NOVOS LISOS AQUI ──
     <div class="fabric-card" data-key="CHAVE" onclick="openFabric('CHAVE')">
-      <img src="images/tecidos/LISOS/CHAVE/page-01.jpg" alt="Nome" loading="lazy">
+      <img src="images/tecidos/LISOS/CHAVE/page-01.jpg" alt="Tecido Nome - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">X cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Nome do Tecido</span>
         <span class="fabric-tag">Segmento · Segmento</span>
         <p class="fabric-desc">Breve descrição para o card.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
     ── -->
@@ -509,74 +610,80 @@
   <div class="fabrics-grid reveal">
 
     <div class="fabric-card" data-key="MACRAME" onclick="openFabric('MACRAME')">
-      <img src="images/tecidos/TRAMAS/MACRAME/page-01.jpg" alt="Macramê" loading="lazy">
+      <img src="images/tecidos/TRAMAS/MACRAME/page-01.jpg" alt="Tecido Macramê - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">2 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Macramê</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Textura artesanal com nós e vazados característicos do macramê. Peças com personalidade e estilo único.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="MACRAME_PALMER" onclick="openFabric('MACRAME_PALMER')">
-      <img src="images/tecidos/TRAMAS/MACRAME_PALMER/page-01.jpg" alt="Macramê Franja Palmer" loading="lazy">
+      <img src="images/tecidos/TRAMAS/MACRAME_PALMER/page-01.jpg" alt="Tecido Macramê Franja Palmer - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Macramê Franja Palmer</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Visual rústico e sofisticado com técnica artesanal de macramê. Peças de moda praia com muito estilo.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="TELA_FIT_POLIESTER" onclick="openFabric('TELA_FIT_POLIESTER')">
-      <img src="images/tecidos/TRAMAS/TELA_FIT_POLIESTER/page-01.jpg" alt="Tela Fit Poliéster" loading="lazy">
+      <img src="images/tecidos/TRAMAS/TELA_FIT_POLIESTER/page-01.jpg" alt="Tecido Tela Fit Poliéster - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Tela Fit Poliéster</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Visual rústico e sofisticado com técnica artesanal de macramê. Peças de moda praia com muito estilo.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="TELA_MESH" onclick="openFabric('TELA_MESH')">
-      <img src="images/tecidos/TRAMAS/TELA_MESH/page-01.jpg" alt="Tela Mesh" loading="lazy">
+      <img src="images/tecidos/TRAMAS/TELA_MESH/page-01.jpg" alt="Tecido Tela Mesh - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Tela Mesh</span>
         <span class="fabric-tag">Fitness · Lingerie · Moda Praia</span>
         <p class="fabric-desc">Tule elástico leve, bi-way, visual opaco e bom rendimento. Indicado para o segmento de lingerie linha dia e noite. Na moda praia pode ser explorado em peças fluídas pelo seu bom caimento. Em peças esportivas pode ser usado em detalhes e sobreposições que não exijam performance da peça.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
      <div class="fabric-card" data-key="TULE_SLIM" onclick="openFabric('TULE_SLIM')">
-      <img src="images/tecidos/TRAMAS/TULE_SLIM/page-01.jpg" alt="Tule Slim" loading="lazy">
+      <img src="images/tecidos/TRAMAS/TULE_SLIM/page-01.jpg" alt="Tecido Tule Slim - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Tule Slim</span>
         <span class="fabric-tag">Fitness · Lingerie</span>
         <p class="fabric-desc">Tule tecnológico, combina funcionalidade e diferenciação. Desenvolvido em microfibra, toque agradável, sustenta com leveza e sem exageros. Perfeito para ser combinado com cetinetes ou Jersey power. Compressão e elasticidade equilibradas, para funções específicas, ajudam na transpirabilidade.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
      <div class="fabric-card" data-key="TULE_SUPER_LEVE" onclick="openFabric('TULE_SUPER_LEVE')">
-      <img src="images/tecidos/TRAMAS/TULE_SUPER_LEVE/page-01.jpg" alt="Tule Super Leve" loading="lazy">
+      <img src="images/tecidos/TRAMAS/TULE_SUPER_LEVE/page-01.jpg" alt="Tecido Tule Super Leve - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Tule Super Leve</span>
         <span class="fabric-tag">Lingerie · Moda Praia</span>
         <p class="fabric-desc">Tule leve com super caimento, e elasticidade acertada para compor peças de linha dia ajustadas ao corpo, como também para peças fluídas no segmento de linha noite. Seduz pelo brilho iridescente valoriza as cores, inclusive na versão estampada.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
@@ -605,792 +712,884 @@
   <div class="fabrics-grid reveal">
 
     <div class="fabric-card" data-key="ANARRUGA_BRILHANTE" onclick="openFabric('ANARRUGA_BRILHANTE')">
-      <img src="images/tecidos/TEXTURIZADOS/ANARRUGA_BRILHANTE/page-01.jpg" alt="Anarruga Brilhante" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/ANARRUGA_BRILHANTE/page-01.jpg" alt="Tecido Anarruga Brilhante - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">11 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Anarruga Brilhante</span>
         <span class="fabric-tag">Moda Praia · Lingerie</span>
         <p class="fabric-desc">Textura anarrugada com acabamento brilhante e sofisticado. Excelente para saídas de praia e peças de destaque.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="ANARRUGA_PRAIA" onclick="openFabric('ANARRUGA_PRAIA')">
-      <img src="images/tecidos/TEXTURIZADOS/ANARRUGA_PRAIA/page-01.jpg" alt="Anarruga Praia" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/ANARRUGA_PRAIA/page-01.jpg" alt="Tecido Anarruga Praia - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">25 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Anarruga Praia</span>
         <span class="fabric-tag">Moda Praia</span>
         <p class="fabric-desc">Leveza e frescor com textura anarrugada especial para coleções praia. Toque agradável e secagem rápida.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="AREZZO" onclick="openFabric('AREZZO')">
-      <img src="images/tecidos/TEXTURIZADOS/AREZZO/page-01.jpg" alt="Arezzo" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/AREZZO/page-01.jpg" alt="Tecido Arezzo - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">6 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Arezzo</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Design geométrico em alto relevo com visual bicolor. Charme, sofisticação e personalidade em cada peça.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="ARTSAN" onclick="openFabric('ARTSAN')">
-      <img src="images/tecidos/TEXTURIZADOS/ARTSAN/page-01.jpg" alt="Artsan" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/ARTSAN/page-01.jpg" alt="Tecido Artsan - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">6 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Artsan</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
-        <p class="fabric-desc">Design geométrico em alto relevo com visual bicolor. Charme, sofisticação e personalidade em cada peça.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <p class="fabric-desc">Produzida em poliamida opaca com elastano, oferece toque macio, elasticidade equilibrada e conforto que dura o dia todo, além de excelente cobertura. Extremamente versátil, transita com facilidade entre moda praia e produções casuais.</p>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="ATHLETIC_POWER" onclick="openFabric('ATHLETIC_POWER')">
-      <img src="images/tecidos/TEXTURIZADOS/ATHLETIC_POWER/page-01.jpg" alt="Athletic Power UV" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/ATHLETIC_POWER/page-01.jpg" alt="Tecido Athletic Power UV - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">6 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Athletic Power UV</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Design geométrico em alto relevo com visual bicolor. Charme, sofisticação e personalidade em cada peça.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="BOUCLE" onclick="openFabric('BOUCLE')">
-      <img src="images/tecidos/TEXTURIZADOS/BOUCLE/page-01.jpg" alt="Bouclê" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/BOUCLE/page-01.jpg" alt="Tecido Bouclê - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">7 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Bouclê</span>
         <span class="fabric-tag">Moda · Moda Praia</span>
         <p class="fabric-desc">Textura bouclê clássica com laçinhos característicos. Tecido nobre para peças com personalidade e sofisticação.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="BOUCLE_NERVUS" onclick="openFabric('BOUCLE_NERVUS')">
-      <img src="images/tecidos/TEXTURIZADOS/BOUCLE_NERVUS/page-01.jpg" alt="Bouclê Nervus" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/BOUCLE_NERVUS/page-01.jpg" alt="Tecido Bouclê Nervus - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">3 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Bouclê Nervus</span>
         <span class="fabric-tag">Moda · Moda Praia</span>
         <p class="fabric-desc">Textura bouclê com nervuras em relevo. Visual moderno e sofisticado para suas coleções.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="BOUCLE_PETALAS" onclick="openFabric('BOUCLE_PETALAS')">
-      <img src="images/tecidos/TEXTURIZADOS/BOUCLE_PETALAS/page-01.jpg" alt="Bouclê Pétalas" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/BOUCLE_PETALAS/page-01.jpg" alt="Tecido Bouclê Pétalas - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">3 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Bouclê Pétalas</span>
         <span class="fabric-tag">Moda · Moda Praia</span>
         <p class="fabric-desc">Variação exclusiva do bouclê com relevo em formato de pétalas. Exclusividade e charme para sua coleção.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANCUN" onclick="openFabric('CANCUN')">
-      <img src="images/tecidos/TEXTURIZADOS/CANCUN/page-01.jpg" alt="Cancún" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANCUN/page-01.jpg" alt="Tecido Cancún - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">8 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Cancún</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Textura leve e fluida com toque macio. Ideal para peças com caimento suave e conforto excepcional.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_BLACKOUT" onclick="openFabric('CANELADO_BLACKOUT')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_BLACKOUT/page-01.jpg" alt="Canelado Blackout" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_BLACKOUT/page-01.jpg" alt="Tecido Canelado Blackout - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">8 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Blackout</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Textura canelada com efeito blackout. Ideal para peças de moda praia e casual com estilo e personalidade.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_DE_COMPRESSAO" onclick="openFabric('CANELADO_DE_COMPRESSAO')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_DE_COMPRESSAO/page-01.jpg" alt="Canelado Compressão" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_DE_COMPRESSAO/page-01.jpg" alt="Tecido Canelado Compressão - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 40 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Compressão</span>
         <span class="fabric-tag">Fitness · Moda Praia</span>
         <p class="fabric-desc">Mini canelado brilhante com toque sedoso. Boa compressão e cobertura para leggings, tops e moda praia.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_DIAGONAL" onclick="openFabric('CANELADO_DIAGONAL')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_DIAGONAL/page-01.jpg" alt="Canelado Diagonal" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_DIAGONAL/page-01.jpg" alt="Tecido Canelado Diagonal - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Diagonal</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Textura canelada diagonal com toque macio e visual moderno. Estilo e personalidade para moda praia e casual.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_EDEN" onclick="openFabric('CANELADO_EDEN')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_EDEN/page-01.jpg" alt="Canelado Eden" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_EDEN/page-01.jpg" alt="Tecido Canelado Eden - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">37 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Eden</span>
         <span class="fabric-tag">Moda Praia · Fitness</span>
         <p class="fabric-desc">Canelado brilhante estruturado. Brilho que intensifica as cores, do claro ao escuro, com ótima cobertura.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_FUJI" onclick="openFabric('CANELADO_FUJI')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_FUJI/page-01.jpg" alt="Canelado Fuji" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_FUJI/page-01.jpg" alt="Tecido Canelado Fuji - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">40 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Fuji</span>
         <span class="fabric-tag">Moda Praia</span>
         <p class="fabric-desc">Relevo brilhante e fundo opaco com toque extremamente sedoso. Canaletas ideais para pequenas modelagens.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_LENATEX" onclick="openFabric('CANELADO_LENATEX')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_LENATEX/page-01.jpg" alt="Canelado Lenatex" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_LENATEX/page-01.jpg" alt="Tecido Canelado Lenatex - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">4 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Lenatex</span>
         <span class="fabric-tag">Lingerie · Moda</span>
         <p class="fabric-desc">Acabamento delicado com textura canelada fina. Leveza e conforto incomparáveis para lingerie premium.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_PILLE" onclick="openFabric('CANELADO_PILLE')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_PILLE/page-01.jpg" alt="Canelado Pille" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_PILLE/page-01.jpg" alt="Tecido Canelado Pille - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">14 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Pille</span>
         <span class="fabric-tag">Fitness · Esportivo</span>
         <p class="fabric-desc">Malha dupla com canelado macio e sofisticado. Alta gramatura para peças de performance com compressão.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_POLIESTER" onclick="openFabric('CANELADO_POLIESTER')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_POLIESTER/page-01.jpg" alt="Canelado Poliéster" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_POLIESTER/page-01.jpg" alt="Tecido Canelado Poliéster - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">19 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Poliéster</span>
         <span class="fabric-tag">Fitness · Esportivo</span>
         <p class="fabric-desc">Textura marcante e toque suave. Ótima elasticidade e durabilidade para peças fitness de alto desempenho.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_POWER" onclick="openFabric('CANELADO_POWER')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_POWER/page-01.jpg" alt="Canelado Power" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_POWER/page-01.jpg" alt="Tecido Canelado Power - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">12 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Power</span>
         <span class="fabric-tag">Fitness · Lingerie</span>
         <p class="fabric-desc">Toque firme e compressão moderada. Ideal para peças que exigem suporte e conforto durante o movimento.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_TREND_MOVE" onclick="openFabric('CANELADO_TREND_MOVE')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_TREND_MOVE/page-01.jpg" alt="Canelado Trend Move" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_TREND_MOVE/page-01.jpg" alt="Tecido Canelado Trend Move - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">6 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Trend Move</span>
         <span class="fabric-tag">Fitness · Moda Praia</span>
         <p class="fabric-desc">Canelado opaco de aspecto natural. Estruturado para modelagens de praia e peças de média compressão fitness.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CANELADO_WONDER" onclick="openFabric('CANELADO_WONDER')">
-      <img src="images/tecidos/TEXTURIZADOS/CANELADO_WONDER/page-01.jpg" alt="Canelado Wonder" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CANELADO_WONDER/page-01.jpg" alt="Tecido Canelado Wonder - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">17 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Canelado Wonder</span>
         <span class="fabric-tag">Fitness · Lingerie</span>
         <p class="fabric-desc">Tecnologia Lycra® Xtra-life. Maior durabilidade e resistência ao cloro, suor e protetores solares.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CARMEL" onclick="openFabric('CARMEL')">
-      <img src="images/tecidos/TEXTURIZADOS/CARMEL/page-01.jpg" alt="Carmel" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CARMEL/page-01.jpg" alt="Tecido Carmel - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">27 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Carmel</span>
         <span class="fabric-tag">Fitness · Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Aspecto sensorial creponado double-face. Leveza, caimento e bem-estar em cada peça.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CREPINHO" onclick="openFabric('CREPINHO')">
-      <img src="images/tecidos/TEXTURIZADOS/CREPINHO/page-01.jpg" alt="Crepinho" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CREPINHO/page-01.jpg" alt="Tecido Crepinho - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">22 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Crepinho</span>
         <span class="fabric-tag">Moda · Moda Praia</span>
         <p class="fabric-desc">Leveza e fluidez incomparáveis para peças com acabamento delicado e elegante.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CREPONADO" onclick="openFabric('CREPONADO')">
-      <img src="images/tecidos/TEXTURIZADOS/CREPONADO/page-01.jpg" alt="Creponado" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CREPONADO/page-01.jpg" alt="Tecido Creponado - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">9 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Creponado</span>
         <span class="fabric-tag">Moda Praia</span>
         <p class="fabric-desc">Superfície texturizada e leve para saídas de praia com estilo e personalidade.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CROCHE_SANTORINI" onclick="openFabric('CROCHE_SANTORINI')">
-      <img src="images/tecidos/TEXTURIZADOS/CROCHE_SANTORINI/page-01.jpg" alt="Crochê Santorini" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CROCHE_SANTORINI/page-01.jpg" alt="Tecido Crochê Santorini - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">8 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Crochê Santorini</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Inspiração mediterrânea com textura crochê única. Sofisticação e leveza para coleções verão.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CROCHETE" onclick="openFabric('CROCHETE')">
-      <img src="images/tecidos/TEXTURIZADOS/CROCHETE/page-01.jpg" alt="Crochete" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CROCHETE/page-01.jpg" alt="Tecido Crochete - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">4 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Crochete</span>
         <span class="fabric-tag">Moda Praia · Fitness · Casual</span>
         <p class="fabric-desc">Textura dupla com aparência artesanal de crochê. Alta gramatura, maciez e cobertura excepcional.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CROCHETE_ROMANTIC" onclick="openFabric('CROCHETE_ROMANTIC')">
-      <img src="images/tecidos/TEXTURIZADOS/CROCHETE_ROMANTIC/page-01.jpg" alt="Crochete Romantic" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CROCHETE_ROMANTIC/page-01.jpg" alt="Tecido Crochete Romantic - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">4 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Crochete Romantic</span>
         <span class="fabric-tag">Moda Praia · Fitness · Casual</span>
         <p class="fabric-desc">Textura dupla com aparência artesanal de crochê. Alta gramatura, maciez e cobertura excepcional.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CRUNCH_LISTRADO" onclick="openFabric('CRUNCH_LISTRADO')">
-      <img src="images/tecidos/TEXTURIZADOS/CRUNCH_LISTRADO/page-01.jpg" alt="Crunch Listrado" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CRUNCH_LISTRADO/page-01.jpg" alt="Tecido Crunch Listrado - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">7 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Crunch Listrado</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Estrutura dupla crepada com design clássico de listras. Toque exclusivo e sofisticado, FPU 50+ vitalício.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="CRUNCH_POA" onclick="openFabric('CRUNCH_POA')">
-      <img src="images/tecidos/TEXTURIZADOS/CRUNCH_POA/page-01.jpg" alt="Crunch Poá" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/CRUNCH_POA/page-01.jpg" alt="Tecido Crunch Poá - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Crunch Poá</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Estrutura dupla crepada com bolinhas exclusivas. Cobertura excelente e FPU 50+ vitalício.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="DIAMOND" onclick="openFabric('DIAMOND')">
-      <img src="images/tecidos/TEXTURIZADOS/DIAMOND/page-01.jpg" alt="Diamond" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/DIAMOND/page-01.jpg" alt="Tecido Diamond - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <div class="fabric-info">
         <span class="fabric-name">Diamond</span>
         <span class="fabric-tag">Fitness · Lingerie</span>
         <p class="fabric-desc">Toque acetinado e brilho sutil. Acabamento liso de alta qualidade para peças sofisticadas.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="DOTS" onclick="openFabric('DOTS')">
-      <img src="images/tecidos/TEXTURIZADOS/DOTS/page-01.jpg" alt="Dots" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/DOTS/page-01.jpg" alt="Tecido Dots - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">28 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Dots</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Textura de bolinhas em relevo para visual divertido e moderno. Estilo e personalidade para praia e casual.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_BROCADO" onclick="openFabric('JACQUARD_BROCADO')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_BROCADO/page-01.jpg" alt="Jacquard Brocado" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_BROCADO/page-01.jpg" alt="Tecido Jacquard Brocado - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">17 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Brocado</span>
         <span class="fabric-tag">Moda Praia · Fitness</span>
         <p class="fabric-desc">Textura com retenção e volume. Usado com o avesso para fora, agrega valor mesmo em modelagens básicas.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_CONCHAS" onclick="openFabric('JACQUARD_CONCHAS')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_CONCHAS/page-01.jpg" alt="Jacquard Conchas" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_CONCHAS/page-01.jpg" alt="Tecido Jacquard Conchas - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">4 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Conchas</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Motivo de conchas tecido em jacquard. Inspiração marinha com acabamento sofisticado.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_CONCHINHAS" onclick="openFabric('JACQUARD_CONCHINHAS')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_CONCHINHAS/page-01.jpg" alt="Jacquard Conchinhas" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_CONCHINHAS/page-01.jpg" alt="Tecido Jacquard Conchinhas - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">7 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Conchinhas</span>
         <span class="fabric-tag">Moda Praia</span>
         <p class="fabric-desc">Motivo de CONCHAS em poliamida brilhante e fundo opaco. Toque sedoso e FPU 50+ vitalício.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_DEGRADE" onclick="openFabric('JACQUARD_DEGRADE')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_DEGRADE/page-01.jpg" alt="Jacquard Degradê" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_DEGRADE/page-01.jpg" alt="Tecido Jacquard Degradê - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">13 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Degradê</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Trama jacquard com efeito degradê exclusivo. Tecido nobre para coleções diferenciadas.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_GITA" onclick="openFabric('JACQUARD_GITA')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_GITA/page-01.jpg" alt="Jacquard Gita" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_GITA/page-01.jpg" alt="Tecido Jacquard Gita - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">3 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Gita</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Padrão exclusivo em trama jacquard. Ideal para coleções com estilo.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_KASHIMIR" onclick="openFabric('JACQUARD_KASHIMIR')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_KASHIMIR/page-01.jpg" alt="Jacquard Kashimir" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_KASHIMIR/page-01.jpg" alt="Tecido Jacquard Kashimir - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">2 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Kashimir</span>
         <span class="fabric-tag">Moda Praia</span>
         <p class="fabric-desc">Design étnico inspirado no clássico cashmere. Autenticidade, sofisticação e charme atemporal.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_LEAF" onclick="openFabric('JACQUARD_LEAF')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_LEAF/page-01.jpg" alt="Jacquard Leaf" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_LEAF/page-01.jpg" alt="Tecido Jacquard Leaf - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">4 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Leaf</span>
         <span class="fabric-tag">Moda Praia</span>
         <p class="fabric-desc">Motivo de FOLHAGEM em fio brilhante e opaco. Toque sedoso e FPU 50+ vitalício para moda praia.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_LINES" onclick="openFabric('JACQUARD_LINES')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_LINES/page-01.jpg" alt="Jacquard Lines" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_LINES/page-01.jpg" alt="Tecido Jacquard Lines - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">2 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Lines</span>
         <span class="fabric-tag">Moda Praia · Fitness · Moda Casual</span>
         <p class="fabric-desc">Retenções em linhas ondulares com TEXTURA e VOLUME 3D. Compressão ajustada e alto conforto.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_NILO" onclick="openFabric('JACQUARD_NILO')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_NILO/page-01.jpg" alt="Jacquard Nilo" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_NILO/page-01.jpg" alt="Tecido Jacquard Nilo - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">2 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Nilo</span>
         <span class="fabric-tag">Moda Praia · Moda Casual · Fitness</span>
         <p class="fabric-desc">Aparência listrada com efeito crochê rendado artesanal. Excelente cobertura para maiôs e peças maiores.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_ONCA" onclick="openFabric('JACQUARD_ONCA')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_ONCA/page-01.jpg" alt="Jacquard Onça" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_ONCA/page-01.jpg" alt="Tecido Jacquard Onça - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">13 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Onça</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Padrão exclusivo de onça em trama jacquard. Tendência e personalidade para suas coleções.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_PIQUET" onclick="openFabric('JACQUARD_PIQUET')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_PIQUET/page-01.jpg" alt="Jacquard Piquet" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_PIQUET/page-01.jpg" alt="Tecido Jacquard Piquet - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">3 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Piquet</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Textura piquet em trama jacquard. Clássico e sofisticado para peças com estilo.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
+      </div>
+    </div>
+
+    <div class="fabric-card" data-key="JACQUARD_VICHY" onclick="openFabric('JACQUARD_VICHY')">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_VICHY/page-01.jpg" alt="Tecido Jacquard Vichy - Catálogo Alfa e Levy" loading="lazy">
+      <div class="fabric-overlay"></div>
+      <span class="fabric-pages-badge">5 variações</span>
+      <div class="fabric-info">
+        <span class="fabric-name">Jacquard Vichy</span>
+        <span class="fabric-tag">Moda Praia · Moda Casual</span>
+        <p class="fabric-desc">Com estrutura dupla e textura 3D, a Jacquard Vichy combina a atemporalidade do xadrez com uma construção sofisticada, rica em detalhes e possibilidades criativas.</p>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_WINNER" onclick="openFabric('JACQUARD_WINNER')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_WINNER/page-01.jpg" alt="Jacquard Winner" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_WINNER/page-01.jpg" alt="Tecido Jacquard Winner - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">6 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Winner</span>
         <span class="fabric-tag">Fitness</span>
         <p class="fabric-desc">Visual brilhante e toque macio com tecnologia Ketten Sport. Indesmalhável, altamente resistente.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_YAHALOM" onclick="openFabric('JACQUARD_YAHALOM')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_YAHALOM/page-01.jpg" alt="Jacquard Yahalom" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_YAHALOM/page-01.jpg" alt="Tecido Jacquard Yahalom - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">4 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Yahalom</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Padrão exclusivo em trama jacquard com charme e sofisticação.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
+      </div>
+    </div>
+    
+    <div class="fabric-card" data-key="JACQUARD_ZIGONI" onclick="openFabric('JACQUARD_ZIGONI')">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_ZIGONI/page-01.jpg" alt="Tecido Jacquard Zigoni - Catálogo Alfa e Levy" loading="lazy">
+      <div class="fabric-overlay"></div>
+      <span class="fabric-pages-badge">5 variações</span>
+      <div class="fabric-info">
+        <span class="fabric-name">Jacquard Zigoni</span>
+        <span class="fabric-tag">Moda Praia · Moda Casual</span>
+        <p class="fabric-desc">A malha Jacquard ZIGONI combina design exclusivo, textura sofisticada e eficiência produtiva em uma única base.</p>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="JACQUARD_ZIGZAG_PUZZLE" onclick="openFabric('JACQUARD_ZIGZAG_PUZZLE')">
-      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_ZIGZAG_PUZZLE/page-01.jpg" alt="Jacquard Zigzag-Puzzle" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/JACQUARD_ZIGZAG_PUZZLE/page-01.jpg" alt="Tecido Jacquard Zigzag-Puzzle - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">4 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Jacquard Zigzag-Puzzle</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Padrão em zigzag e puzzle. Moderno e cheio de personalidade.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LASTEX_GLOSS" onclick="openFabric('LASTEX_GLOSS')">
-      <img src="images/tecidos/TEXTURIZADOS/LASTEX_GLOSS/page-01.jpg" alt="Lastex Gloss" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/LASTEX_GLOSS/page-01.jpg" alt="Tecido Lastex Gloss - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">5 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Lastex Gloss</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Textura lastex com acabamento glossy. Brilho intenso e toque macio para peças de destaque.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LASTEX_LIGHT" onclick="openFabric('LASTEX_LIGHT')">
-      <img src="images/tecidos/TEXTURIZADOS/LASTEX_LIGHT/page-01.jpg" alt="Lastex Light" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/LASTEX_LIGHT/page-01.jpg" alt="Tecido Lastex Light - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">13 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Lastex Light</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Textura lastex leve com toque suave. Conforto e estilo para peças casuais e de praia.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LIS" onclick="openFabric('LIS')">
-      <img src="images/tecidos/TEXTURIZADOS/LIS/page-01.jpg" alt="LIS" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/LIS/page-01.jpg" alt="Tecido LIS - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">7 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">LIS</span>
         <span class="fabric-tag">Moda Praia · Fitness · Lingerie</span>
         <p class="fabric-desc">Design inspirado na Flor de Lis com relevo bicolor. Feminino, delicado e romanticamente sofisticado.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LUREX_3_DOURADO" onclick="openFabric('LUREX_3_DOURADO')">
-      <img src="images/tecidos/TEXTURIZADOS/LUREX_3_DOURADO/page-01.jpg" alt="Lurex 3 Dourado" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/LUREX_3_DOURADO/page-01.jpg" alt="Tecido Lurex 3 Dourado - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">6 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Lurex 3 Dourado</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Fios de lurex dourados que conferem brilho e sofisticação. Para peças de destaque e coleções especiais.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LUREX_3_PRATA" onclick="openFabric('LUREX_3_PRATA')">
-      <img src="images/tecidos/TEXTURIZADOS/LUREX_3_PRATA/page-01.jpg" alt="Lurex 3 Prata" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/LUREX_3_PRATA/page-01.jpg" alt="Tecido Lurex 3 Prata - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">29 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Lurex 3 Prata</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Brilho exuberante com lurex prata no lado externo. Toque sedoso sem desconforto e FPU 50+ vitalício.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LUREX_4_E_OUTROS" onclick="openFabric('LUREX_4_E_OUTROS')">
-      <img src="images/tecidos/TEXTURIZADOS/LUREX_4_E_OUTROS/page-01.jpg" alt="Lurex 4 e Outros" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/LUREX_4_E_OUTROS/page-01.jpg" alt="Tecido Lurex 4 e Outros - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">23 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Lurex 4 e Outros</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Família de lurex com brilho e sofisticação. Para peças de destaque e coleções especiais.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LUX_DUBAI" onclick="openFabric('LUX_DUBAI')">
-      <img src="images/tecidos/TEXTURIZADOS/LUX_DUBAI/page-01.jpg" alt="Lux Dubai" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/LUX_DUBAI/page-01.jpg" alt="Tecido Lux Dubai - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">2 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Lux Dubai</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Textura luxuosa com brilho sutil e caimento impecável. Ideal para peças sofisticadas e elegantes.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="LYCRA_JEANS" onclick="openFabric('LYCRA_JEANS')">
-      <img src="images/tecidos/TEXTURIZADOS/LYCRA_JEANS/page-01.jpg" alt="Lycra Jeans" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/LYCRA_JEANS/page-01.jpg" alt="Tecido Lycra Jeans - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">2 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Lycra Jeans</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Inspiração jeans com toque macio e excelente elasticidade. Versatilidade para casual e moda praia.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="MALIBU" onclick="openFabric('MALIBU')">
-      <img src="images/tecidos/TEXTURIZADOS/MALIBU/page-01.jpg" alt="Malibu" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/MALIBU/page-01.jpg" alt="Tecido Malibu - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">20 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Malibu</span>
         <span class="fabric-tag">Fitness · Moda Casual · Moda Praia</span>
         <p class="fabric-desc">Textura leve e fluida com toque macio. Caimento suave e conforto excepcional para diversas aplicações.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="MALTE" onclick="openFabric('MALTE')">
-      <img src="images/tecidos/TEXTURIZADOS/MALTE/page-01.jpg" alt="Malte" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/MALTE/page-01.jpg" alt="Tecido Malte - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">12 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Malte</span>
         <span class="fabric-tag">Moda Praia · Moda Casual · Fitness</span>
         <p class="fabric-desc">Estrutura dupla com aparência artesanal e rústica. Alta gramatura com muito conforto e FPU 50+ vitalício.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="MARRAKESH" onclick="openFabric('MARRAKESH')">
-      <img src="images/tecidos/TEXTURIZADOS/MARRAKESH/page-01.jpg" alt="Marrakesh" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/MARRAKESH/page-01.jpg" alt="Tecido Marrakesh - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">3 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Marrakesh</span>
         <span class="fabric-tag">Fitness · Lingerie · Moda Praia</span>
         <p class="fabric-desc">Fio trilobal com efeito shantung plano. Funciona como falso liso em lingerie e destaca em tons profundos.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="MARSELHA" onclick="openFabric('MARSELHA')">
-      <img src="images/tecidos/TEXTURIZADOS/MARSELHA/page-01.jpg" alt="Marselha" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/MARSELHA/page-01.jpg" alt="Tecido Marselha - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">6 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Marselha</span>
         <span class="fabric-tag">Fitness · Moda Praia</span>
         <p class="fabric-desc">Alta performance para fitness e praia. Compressão na medida, recuperação rápida e estrutura que não deforma.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="MONACO" onclick="openFabric('MONACO')">
-      <img src="images/tecidos/TEXTURIZADOS/MONACO/page-01.jpg" alt="Monaco" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/MONACO/page-01.jpg" alt="Tecido Monaco - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">+ 30 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Monaco</span>
         <span class="fabric-tag">Moda Praia</span>
         <p class="fabric-desc">Desenvolvido em poliamida microfilamentada com efeito enrugado irregular. Pode ser usado na vertical ou na horizontal, tem elasticidade adequada em ambos sentidos. Textura bidimensional com bom caimento para confecção de biquinis e roupas de praia.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="MONTANA" onclick="openFabric('MONTANA')">
-      <img src="images/tecidos/TEXTURIZADOS/MONTANA/page-01.jpg" alt="Montana" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/MONTANA/page-01.jpg" alt="Tecido Montana - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">12 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Montana</span>
         <span class="fabric-tag">Fitness · Moda Casual</span>
         <p class="fabric-desc">Compacto sem transparência com tecnologia Ketten Sport. Alta resistência e estabilidade dimensional.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="POINTS" onclick="openFabric('POINTS')">
-      <img src="images/tecidos/TEXTURIZADOS/POINTS/page-01.jpg" alt="Points" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/POINTS/page-01.jpg" alt="Tecido Points - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">11 cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Points</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Textura leve e fluida com toque macio. Ideal para peças com caimento suave e conforto excepcional.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="POSITANO" onclick="openFabric('POSITANO')">
-      <img src="images/tecidos/TEXTURIZADOS/POSITANO/page-01.jpg" alt="Positano" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/POSITANO/page-01.jpg" alt="Tecido Positano - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">3 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Positano</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Textura leve e fluida com toque macio. Ideal para peças com caimento suave e conforto excepcional.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="ROCKS" onclick="openFabric('ROCKS')">
-      <img src="images/tecidos/TEXTURIZADOS/ROCKS/page-01.jpg" alt="Rocks" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/ROCKS/page-01.jpg" alt="Tecido Rocks - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">3 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Rocks</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Textura rochosa com toque macio e caimento fluido. Personalidade e estilo marcante.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="SAINT_MARTIN" onclick="openFabric('SAINT_MARTIN')">
-      <img src="images/tecidos/TEXTURIZADOS/SAINT_MARTIN/page-01.jpg" alt="Saint Martin" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/SAINT_MARTIN/page-01.jpg" alt="Tecido Saint Martin - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">20+ cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Saint Martin</span>
         <span class="fabric-tag">Moda Casual · Moda Praia</span>
         <p class="fabric-desc">Visual tridimensional com aspecto de tecido feito à mão. Forte impacto visual para biquínis e maiôs.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="SEREIA" onclick="openFabric('SEREIA')">
-      <img src="images/tecidos/TEXTURIZADOS/SEREIA/page-01.jpg" alt="Sereia" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/SEREIA/page-01.jpg" alt="Tecido Sereia - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">4 variações</span>
       <div class="fabric-info">
         <span class="fabric-name">Sereia</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Textura leve e fluida com toque macio. Ideal para peças com caimento suave e conforto excepcional.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="SUKUZA" onclick="openFabric('SUKUZA')">
-      <img src="images/tecidos/TEXTURIZADOS/SUKUZA/page-01.jpg" alt="Sukuza" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/SUKUZA/page-01.jpg" alt="Tecido Sukuza - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <div class="fabric-info">
         <span class="fabric-name">Sukuza</span>
         <span class="fabric-tag">Fitness</span>
         <p class="fabric-desc">Power, elasticidade e cobertura com visual refletivo texturado. Mistura exclusiva de fios opacos e brilhantes.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="TEXAS" onclick="openFabric('TEXAS')">
-      <img src="images/tecidos/TEXTURIZADOS/TEXAS/page-01.jpg" alt="Texas" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/TEXAS/page-01.jpg" alt="Tecido Texas - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">15+ cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Texas</span>
         <span class="fabric-tag">Moda Praia · Fitness · Moda Casual</span>
         <p class="fabric-desc">Visual rústico e artesanal que remete ao ponto do crochê. Tendência beachwear com toque macio e suave.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="VERONA" onclick="openFabric('VERONA')">
-      <img src="images/tecidos/TEXTURIZADOS/VERONA/page-01.jpg" alt="Verona" loading="lazy">
+      <img src="images/tecidos/TEXTURIZADOS/VERONA/page-01.jpg" alt="Tecido Verona - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <span class="fabric-pages-badge">25+ cores</span>
       <div class="fabric-info">
         <span class="fabric-name">Verona</span>
         <span class="fabric-tag">Moda Praia · Moda Casual</span>
         <p class="fabric-desc">Aparência de PLUSH com toque ATOALHADO, brilho luxuoso e secagem rápida. Sinônimo de estilo à beira-mar.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
@@ -1419,42 +1618,80 @@
   <div class="fabrics-grid reveal">
 
     <div class="fabric-card" data-key="SARDINHA" onclick="openFabric('SARDINHA')">
-      <img src="images/tecidos/ESTAMPADOS/SARDINHA/page-01.jpg" alt="Sardinha" loading="lazy">
+      <img src="images/tecidos/ESTAMPADOS/SARDINHA/page-01.jpg" alt="Tecido Sardinha - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <div class="fabric-info">
         <span class="fabric-name">Sardinha</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Lançamento Sardinha em tule e suplex. Charme e sofisticação para coleções diferenciadas.</p>
-        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver variações <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <div class="fabric-card" data-key="SARDINHAS" onclick="openFabric('SARDINHAS')">
-      <img src="images/tecidos/ESTAMPADOS/SARDINHAS/page-01.jpg" alt="Sardinhas" loading="lazy">
+      <img src="images/tecidos/ESTAMPADOS/SARDINHAS/page-01.jpg" alt="Tecido Sardinhas - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <div class="fabric-info">
         <span class="fabric-name">Sardinhas</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Lançamentos Sardinhas em tule e suplex. Charme e sofisticação para coleções diferenciadas.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
 
     <!-- ── ADICIONE NOVOS ESTAMPADOS AQUI ──
     <div class="fabric-card" data-key="CHAVE" onclick="openFabric('CHAVE')">
-      <img src="images/tecidos/ESTAMPADOS/CHAVE/page-01.jpg" alt="Nome" loading="lazy">
+      <img src="images/tecidos/ESTAMPADOS/CHAVE/page-01.jpg" alt="Tecido Nome - Catálogo Alfa e Levy" loading="lazy">
       <div class="fabric-overlay"></div>
       <div class="fabric-info">
         <span class="fabric-name">Nome do Tecido</span>
         <span class="fabric-tag">Moda Praia · Moda</span>
         <p class="fabric-desc">Descrição curta para o card.</p>
-        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/></svg></span>
+        <span class="fabric-cta">Ver cores <svg style="width:11px;height:11px;fill:currentColor"><use href="#ico-arrow"/>
+</svg></span>
       </div>
     </div>
     ── -->
 
   </div>
 </div>
+
+
+<!-- ═══════════════════════════════════════
+     COMO COMPRAR / FAQ
+════════════════════════════════════════ -->
+<section class="faq-section" id="faq">
+  <div class="faq-container">
+    <div class="faq-header reveal">
+      <span class="faq-label">Dúvidas Frequentes</span>
+      <h2 class="faq-title">Como <em>Comprar</em></h2>
+    </div>
+    <div class="faq-grid reveal">
+      <div class="faq-item">
+        <div class="faq-icon">📏</div>
+        <h3>Metragem Mínima</h3>
+        <p>Atendemos tanto atacado quanto varejo. Trabalhamos com cortes a partir de <strong>1 metro</strong> para a maioria dos nossos artigos.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-icon">💳</div>
+        <h3>Formas de Pagamento</h3>
+        <p>Aceitamos Pix, transferência bancária, cartões de crédito e débito, e links de pagamento para maior comodidade.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-icon">📦</div>
+        <h3>Envio e Entregas</h3>
+        <p>Enviamos para todo o Brasil via Correios, Transportadoras ou excursões saindo do Brás/Bom Retiro. O frete é calculado no atendimento.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-icon">🎨</div>
+        <h3>Cartela de Cores</h3>
+        <p>Devido à alta rotatividade, as cores disponíveis em estoque são confirmadas diretamente pelo WhatsApp no momento do orçamento.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ═══════════════════════════════════════
      CONTATO
@@ -1465,13 +1702,18 @@
   <p class="contato-sub">Receba amostras e informações sobre toda a nossa linha de tecidos. Atendemos confecções de todos os tamanhos.</p>
   <div class="contact-btns">
     <a href="https://wa.me/5511957717470?text=Olá!%20Gostaria%20de%20receber%20o%20catálogo%20completo%20e%20informações%20sobre%20os%20tecidos." target="_blank" class="btn-wpp">
-      <svg><use href="#ico-whatsapp"/></svg> WhatsApp · (11) 95771-7470
+      <svg><use href="#ico-whatsapp"/>
+</svg> WhatsApp · (11) 95771-7470
     </a>
+    
+    
     <a href="https://www.instagram.com/levytextil456?igsh=MTBrZHpmNmk1cnc5Yg==" target="_blank" class="btn-ig">
-      <svg><use href="#ico-instagram"/></svg> @levytextil456
+      <svg><use href="#ico-instagram"/>
+</svg> @levytextil456
     </a>
     <a href="https://www.instagram.com/alfatextil/" target="_blank" class="btn-ig">
-      <svg><use href="#ico-instagram"/></svg> @alfatextil
+      <svg><use href="#ico-instagram"/>
+</svg> @alfatextil
     </a>
   </div>
 </section>
@@ -1485,9 +1727,14 @@
       <div class="footer-logo">Alfa <span>&</span> Levy</div>
       <p>Distribuidora especializada em tecidos para moda praia, fitness e lingerie. Qualidade e variedade para sua confecção.</p>
       <div class="footer-social">
-        <a href="https://www.instagram.com/levytextil456?igsh=MTBrZHpmNmk1cnc5Yg==" target="_blank" title="@levytextil456"><svg><use href="#ico-instagram"/></svg></a>
-        <a href="https://www.instagram.com/alfatextil/" target="_blank" title="@alfatextil"><svg><use href="#ico-instagram"/></svg></a>
-        <a href="https://wa.me/5511957717470" target="_blank"><svg><use href="#ico-whatsapp"/></svg></a>
+        
+    
+    <a href="https://www.instagram.com/levytextil456?igsh=MTBrZHpmNmk1cnc5Yg==" target="_blank" title="@levytextil456"><svg><use href="#ico-instagram"/>
+</svg></a>
+        <a href="https://www.instagram.com/alfatextil/" target="_blank" title="@alfatextil"><svg><use href="#ico-instagram"/>
+</svg></a>
+        <a href="https://wa.me/5511957717470" target="_blank"><svg><use href="#ico-whatsapp"/>
+</svg></a>
       </div>
     </div>
     <div>
@@ -1515,7 +1762,9 @@
       <h4>Contato</h4>
       <ul>
         <li><a href="https://wa.me/5511957717470" target="_blank">WhatsApp</a></li>
-        <li><a href="https://www.instagram.com/levytextil456?igsh=MTBrZHpmNmk1cnc5Yg==" target="_blank">Instagram Levy</a></li>
+        <li>
+    
+    <a href="https://www.instagram.com/levytextil456?igsh=MTBrZHpmNmk1cnc5Yg==" target="_blank">Instagram Levy</a></li>
         <li><a href="https://www.instagram.com/alfatextil/" target="_blank">Instagram Alfa</a></li>
       </ul>
     </div>
@@ -1523,27 +1772,31 @@
 
   <div class="footer-address-bar">
     <div class="footer-addr-inner">
-      <div class="footer-addr-icon"><svg><use href="#ico-location"/></svg></div>
+      <div class="footer-addr-icon"><svg><use href="#ico-location"/>
+</svg></div>
       <a href="https://share.google/EKA9Mi7fkdc8V5YgF" target="_blank" class="footer-addr-link">
         <span class="footer-addr-label">Levy Têxtil</span>
         Rua Três Rios, 456 — Bom Retiro, São Paulo – SP · Brasil
       </a>
     </div>
     <a href="https://maps.app.goo.gl/qJCBJizT1huBiMRm9" target="_blank" class="footer-map-btn">
-      <svg><use href="#ico-map"/></svg> Ver no Mapa
+      <svg><use href="#ico-map"/>
+</svg> Ver no Mapa
     </a>
   </div>
 
   <div class="footer-address-bar">
     <div class="footer-addr-inner">
-      <div class="footer-addr-icon"><svg><use href="#ico-location"/></svg></div>
+      <div class="footer-addr-icon"><svg><use href="#ico-location"/>
+</svg></div>
       <a href="https://share.google/OvOwk3jgt5UbZPcwO" target="_blank" class="footer-addr-link">
         <span class="footer-addr-label">Alfa Têxtil</span>
         Rua Da Graça, 798 — Bom Retiro, São Paulo – SP · Brasil
       </a>
     </div>
     <a href="https://maps.app.goo.gl/QL4gnc8VSNyhmEXo7" target="_blank" class="footer-map-btn">
-      <svg><use href="#ico-map"/></svg> Ver no Mapa
+      <svg><use href="#ico-map"/>
+</svg> Ver no Mapa
     </a>
   </div>
 
@@ -1590,11 +1843,10 @@
         </div>
 
         <div class="fabric-modal-actions">
-          <a id="fabricModalWpp" href="" target="_blank" class="fabric-modal-wpp">
-            <svg><use href="#ico-whatsapp"/></svg> Solicitar via WhatsApp
-          </a>
+          <a id="fabricModalWpp" href="#" class="fabric-modal-wpp"><svg><use href="#ico-cart"/></svg> Adicionar ao Orçamento</a>
           <a id="fabricModalBook" href="" target="_blank" class="fabric-modal-book" style="display:none">
-            <svg style="width:16px;height:16px;fill:currentColor" viewBox="0 0 24 24"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/></svg>
+            <svg style="width:16px;height:16px;fill:currentColor" viewBox="0 0 24 24"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/>
+</svg>
             Ver Book Completo
           </a>
         </div>
@@ -1626,7 +1878,8 @@
 <a id="wppFloat"
    href="https://wa.me/5511957717470?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20tecidos."
    target="_blank" class="wpp-float" title="Fale conosco no WhatsApp">
-  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+</svg>
   <span class="wpp-float-label">Fale Conosco</span>
 </a>
 
@@ -1643,6 +1896,39 @@
 <script src="js/fabrics-texturizados.js"></script>
 <script src="js/fabrics-estampados.js"></script>
 <script src="js/fabric-colors.js"></script>
+
+
+<!-- SACOLA DE ORÇAMENTOS -->
+<button id="cartFloatBtn" onclick="openCartDrawer()" title="Sua Sacola">
+  <svg viewBox="0 0 24 24"><use href="#ico-cart"/></svg>
+  <span class="cart-count">0</span>
+</button>
+
+<div class="cart-drawer-overlay" id="cartDrawer" onclick="closeCartDrawer()">
+  <div class="cart-drawer" onclick="event.stopPropagation()">
+    <div class="cart-drawer-header">
+      <h3>Sua Sacola</h3>
+      <button onclick="closeCartDrawer()">✕</button>
+    </div>
+    <div class="cart-drawer-body" id="cartDrawerList">
+      <!-- items here -->
+    </div>
+    <div class="cart-drawer-footer">
+      <button class="cart-checkout-btn" id="cartDrawerCheckout" onclick="checkoutWhatsapp()">
+        <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:currentColor;"><use href="#ico-whatsapp"/></svg>
+        Enviar Orçamento
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- SCROLL TO TOP -->
+<button id="scrollTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Voltar ao topo">
+  <svg viewBox="0 0 24 24"><path d="M12 4l-8 8h6v8h4v-8h6z"/>
+</svg>
+</button>
+
+<script src="js/cart.js"></script>
 <script src="js/fabrics-data.js"></script>
 <script src="js/modal.js"></script>
 <script src="js/filters.js"></script>

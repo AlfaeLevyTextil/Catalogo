@@ -80,7 +80,7 @@ CORTA_VENTO_REFLETIVO: {
 DEMI: {
   name: 'Demi Compression', category: 'LISOS', tag: '', 
   previewColors: ['#4b2127','#d9abb5','#f6e597','#12204d','#000000'],
-  desc: '', 
+  desc: 'Com estrutura dupla e trama supercompacta, a malha DEMI COMPACT se destaca por oferecer cobertura superior contra transparência e elasticidade excepcional, garantindo conforto absoluto e liberdade total de movimento. Produzida em poliamida opaca com elastano, proporciona média compressão, baixa retenção hídrica e ajuste perfeito ao corpo, unindo leveza, segurança e performance. Versátil e sofisticada, é ideal para peças ajustadas de performance, além de blusões, jaquetas e calças esportivas ou casuais, trazendo modernidade e inovação ao visual. A variante PAINT leva o selo sustentável GREEN FIBER, pois é tecida em fio tinto, ou seja, é apenas LAVADA e não sofre tingimento, economizando até 70% de água e energia elétrica em seu processo. FPU 50+ vitalício devido ao fio de poliamida ser enriquecido com dióxido de titânio em sua massa. Possui certificação OEKO-TEX, garantindo que não há químicos nocivos aos usuários em sua fabricação.', 
   pages: 1, colorsTitle: 'Cores Disponíveis',
   colors: [
     { name: 'Barolo', hex: '#4b2127' },
@@ -109,9 +109,9 @@ DEMI: {
     { name: 'Hyper Mint', hex: '#74cba0' },
   ],
 
-  largura: '', rendimento: '', gramatura: '', composicao: '', 
-  attributes: [],
-  bookUrl: 'book.htmlfabric=DEMI'
+  largura: '1,62m', rendimento: '2,17m/kg', gramatura: '285g', composicao: '88% Poliamida, 12% Elastano', 
+  attributes: ['01.FITNESS.jpg','25.ESPORTIVO.jpg','06.SOLAR.jpg','19.ALTA-COBERTURA.jpg','18.ALTA-COMPRESSAO.jpg'],
+  bookUrl: 'book.html?fabric=DEMI'
 },
 
 DRY_FIT: {

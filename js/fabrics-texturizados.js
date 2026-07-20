@@ -77,13 +77,13 @@ const FABRICS_TEXTURIZADOS = {
   ARTSAN: {
     name: 'Artsan', category: 'TEXTURIZADOS', tag: 'Moda Praia',
     previewColors: [],
-    desc: '',
+    desc: 'Com visual marcante e textura em evidência, a malha Jacquard ARTISAN é sinônimo de charme e sofisticação. Seu desenho exclusivo em alto relevo remete ao tricô artesanal, com tranças e listras que se combinam em uma composição geométrica cheia de estilo e personalidade. Produzida em poliamida opaca com elastano, oferece toque macio, elasticidade equilibrada e conforto que dura o dia todo, além de excelente cobertura. Extremamente versátil, transita com facilidade entre moda praia e produções casuais. Possui em sua grade 2 tons ROCK SOLID COLORS, um tingimento especial, um processo exclusivo SPA onde a cor possui alta solidez à lavagem até 40ºC. A variante PAINT leva o selo sustentável GREEN FIBER, pois é tecida em fio tinto preto, ou seja, é apenas LAVADA e não sofre tingimento, economizando até 70% de água e energia elétrica em seu processo. FPU 50+ vitalício devido ao fio de poliamida ser enriquecido com dióxido de titânio em sua massa. Possui certificação OEKO-TEX, garantindo que não há químicos nocivos aos usuários em sua fabricação.',
     pages: 1, colorsTitle: 'Cores Disponíveis',
     colors: [
 
     ],
-    largura:'', rendimento: '', gramatura: '', composicao: '', 
-    attributes:  [],
+    largura:'1,32m', rendimento: '180m/kg', gramatura: '420g', composicao: '91% Poliamida, 9% Elastano', 
+    attributes:  ['02.PRAIA2.jpg','04.MODA.jpg','06.SOLAR.jpg'],
     bookUrl: 'book.html?fabric=ARTSAN'
   },
 
@@ -714,7 +714,7 @@ const FABRICS_TEXTURIZADOS = {
       { name: 'Amarelo', hex: '#e4c22b' },
     ],
     largura: '1,6m', rendimento: '1,78m/kg', gramatura: '350g', composicao: '90,59% Poliamida, 9,41% Elastano',
-    attributes: ['25.ESPORTIVO.jpg','26.LINGERIE.jpg','19.ALTA-COBERTURA.jpg','06.SOLAR.jpg'],
+    attributes: ['25.ESPORTIVO.jpg','10.LINGERIE.jpg','19.ALTA-COBERTURA.jpg','06.SOLAR.jpg'],
     bookUrl: 'book.html?fabric=DIAMOND',
   },
 
@@ -962,6 +962,24 @@ const FABRICS_TEXTURIZADOS = {
    
   },
 
+  JACQUARD_VICHY: {
+    name: 'Jacquard Vichy', category: 'TEXTURIZADOS', tag: 'Moda Praia · Moda Casual',
+    previewColors: ['#d8dad1', '#ffffff', '#ce523b'],
+    desc: 'O tecido Jacquard Vichy destaca se pela estrutura dupla e textura tridimensional que une a elegância atemporal do xadrez a uma construção sofisticada e versátil composta por poliamida opaca com elastano e fio tinto o que dispensa o tingimento tradicional e torna o processo produtivo mais eficiente e controlado. Um grande diferencial deste artigo é o seu avesso trabalhado que permite a exploração criativa de ambos os lados da malha em uma mesma peça criando contrastes visuais interessantes em detalhes como golas barras e punhos sendo um material ideal para transitar entre os segmentos de moda praia casual e resortwear agregando valor estético às coleções. Além do apelo visual o tecido garante alta segurança e performance técnica contando com certificação OEKO TEX que atesta a ausência de substâncias nocivas e proteção FPU 50 mais vitalícia conquistada pela aplicação de dióxido de titânio diretamente na massa da poliamida garantindo durabilidade e proteção solar permanente para o usuário',
+    pages: 1, colorsTitle: 'Variações',
+    colors: [
+      { name: 'Azul/Branco', hex: [ '#3b4571', '#ffffff' ]},
+      { name: 'Bege/Brcanco', hex: [ '#D8C8A8', '#ffffff' ]},
+      { name: 'Kombucha/Branco', hex: [ '#a26302', '#ffffff' ]},
+      { name: 'Preto/Branco', hex: [ '#000000', '#ffffff' ]},
+      { name: 'Terra/Branco', hex: [ '#744430', '#ffffff' ]},
+    ], 
+
+    largura: '1,42m', rendimento: '2,01m/kg', gramatura: '350g', composicao: '88% Poliamida, 12% Elastano',  
+    attributes: ['02.PRAIA2.jpg','04.MODA.jpg','05.TOQUE-MACIO.jpg','06.SOLAR.jpg'],
+    bookUrl: 'book.html?fabric=JACQUARD_VICHY'
+  },
+
   JACQUARD_WINNER: {
     name: 'Jacquard Winner', category: 'TEXTURIZADOS', tag: 'Fitness',
     desc: 'Com visual brilhante e toque macio, Jacquard Winner combina compressão e elasticidade equilibradas. Possui a tecnologia Ketten Sport, sendo indesmalhável, altamente resistente e com excelente estabilidade dimensional. Proporciona sofisticação e forte impacto visual às peças de fitness.',
@@ -985,6 +1003,24 @@ const FABRICS_TEXTURIZADOS = {
     largura: '', rendimento: '', gramatura: '', composicao: '',  
     attributes: [ ],
     bookUrl: 'book.html?fabric=JACQUARD_WINNER'
+  },
+
+  JACQUARD_ZIGONI: {
+    name: 'Jacquard Zigoni', category: 'TEXTURIZADOS', tag: 'Moda Praia · Moda Casual',
+    previewColors: ['#d8dad1', '#ffffff', '#ce523b'],
+    desc: 'A malha Jacquard ZIGONI combina design exclusivo, textura sofisticada e eficiência produtiva em uma única base. O relevo sutil adiciona profundidade visual e valor estético, enquanto a composição em poliamida opaca com elastano proporciona toque extremamente macio, conforto superior e excelente vestibilidade, acompanhando os movimentos do corpo com naturalidade. Versátil, a ZIGONI transita com facilidade entre a moda praia e propostas de moda casual, ampliando as possibilidades criativas para coleções contemporâneas. Disponível em seis variantes de cores, todas produzidas com fios tintos. Por isso, os artigos passam apenas pelo processo de lavagem, dispensando o tingimento e eliminando uma etapa produtiva. O resultado é mais eficiência, maior controle de processo e redução no consumo de recursos, sem abrir mão da riqueza visual e da qualidade do produto final. FPU 50+ vitalício devido ao fio de poliamida ser enriquecido com dióxido de titânio em sua massa. Possui certificação OEKO-TEX, garantindo que não há químicos nocivos aos usuários em sua fabricação.',
+    pages: 1, colorsTitle: 'Variações',
+    colors: [
+      { name: 'Cru/Azul/Preto/Bege', hex: [ '#fef1e6','#3b4571', '#000000', '#D8C8A8' ]},
+      { name: 'Cru/Preto/Kombucha/Bege', hex: [ '#fef1e6', '#000000', '#a26302', '#D8C8A8' ]},
+      { name: 'Terra/Kombucha/Amarelo/Bege', hex: [ '#744430', '#a26302', '#cec10d', '#D8C8A8' ]},
+      { name: 'Terra/Bege/Kombucha/Preto', hex: [ '#744430', '#D8C8A8', '#a26302', '#000000' ]},
+      { name: 'Azul/Preto/Terra/Bege', hex: [ '#3b4571', '#000000', '#744430', '#D8C8A8' ]},
+    ], 
+
+    largura: '1,42m', rendimento: '2,01m/kg', gramatura: '350g', composicao: '88% Poliamida, 12% Elastano',  
+    attributes: ['02.PRAIA2.jpg','04.MODA.jpg','05.TOQUE-MACIO.jpg','06.SOLAR.jpg'],
+    bookUrl: 'book.html?fabric=JACQUARD_ZIGONI'
   },
 
   JACQUARD_ZIGZAG_PUZZLE: {
