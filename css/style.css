@@ -110,11 +110,19 @@ nav{
   font-size:9px;letter-spacing:5px;text-transform:uppercase;text-decoration:none;transition:all 0.35s;}
 .hero-cat:hover{border-color:var(--gold);color:var(--gold-light);background:rgba(200,160,58,0.06);}
 .btn-primary{display:inline-flex;align-items:center;gap:10px;padding:15px 36px;
-  border:1px solid var(--gold);color:var(--gold-light);font-size:10px;letter-spacing:4px;
-  text-transform:uppercase;text-decoration:none;position:relative;overflow:hidden;transition:color 0.4s;}
-.btn-primary::before{content:'';position:absolute;inset:0;background:var(--gold);transform:translateX(-100%);transition:transform 0.4s;}
+  border:1px solid rgba(196,159,224,0.35);color:var(--lavender);font-size:10px;letter-spacing:4px;
+  text-transform:uppercase;text-decoration:none;position:relative;overflow:hidden;transition:color 0.4s, border-color 0.3s;
+  background:transparent;z-index:1;}
+.btn-primary::before{content:'';position:absolute;inset:0;background:rgba(200,160,58,0.06);transform:translateX(-100%);transition:transform 0.4s ease, background 0.4s ease;z-index:0;}
 .btn-primary:hover::before{transform:translateX(0);}
-.btn-primary:hover{color:var(--deep);}
+.btn-primary:hover,
+.btn-primary:hover svg,
+.btn-primary:hover * {
+  color: var(--gold-light) !important;
+  fill: var(--gold-light) !important;
+}
+.btn-primary:hover{border-color:var(--gold);}
+.btn-primary svg{position:relative;z-index:1;}
 .btn-primary>*{position:relative;z-index:1;}
 .btn-secondary{display:inline-flex;align-items:center;gap:10px;padding:15px 36px;
   border:1px solid rgba(139,69,200,0.4);color:var(--lavender);font-size:10px;

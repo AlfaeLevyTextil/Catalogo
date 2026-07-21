@@ -25,7 +25,7 @@ ATLETIKA: {
 
     largura: '1,48m', rendimento: '2,82m/kg', gramatura: ' 240g/m²', composicao: 'Poliamida 73%, Elastano 27%',
     attributes: ['01.FITNESS.jpg','10.LINGERIE.jpg','13.ELASTICIDADE1.jpg','15.KETTENSPORT.jpg','8.SHARPEWAR.jpg','05.TOQUE-MACIO.jpg'],
-    bookUrl: 'book.html?fabric=ATLETIKA'
+    bookUrl: 'book.html?fabric=ATLETIKA',
   },
 
   CIRRE: {
@@ -49,13 +49,13 @@ ATLETIKA: {
 
 CORTA_VENTO_AMASSADO: {
   name: 'Corta Vento Amassado', category: 'LISOS', tag: '', 
-  previewColors: ['#ffffff', '#cca270', '#000000', '#a0bda6', '#f6f7f6'],
+  previewColors: ['#ffffff', '#cca270', '#000000', '#a0bda6', '#f0eed7'],
   desc: '', 
   pages: '', colorsTitle: 'Cores Disponíveis',
   colors: [
      { name: 'Bege', hex: '#cca270' },
      { name: 'Branco', hex: '#ffffff' },
-     { name: 'Off-White', hex: '#f6f7f6' },
+     { name: 'Off-White', hex: '#f0eed7' },
      { name: 'Preto', hex: '#000000' },
      { name: 'Verde Claro', hex: '#a0bda6' },
   ],
@@ -563,8 +563,8 @@ SANTA_CONSTANCIA: {
     bookUrl: 'book.html?fabric=NEW_TRIP',
   },
 
-  NEW_ZELAND: {
-  name: 'New Zeland', category: 'LISOS', tag: '', supplier: 'ROSSET',
+  NEW_ZEALAND: {
+  name: 'New Zealand', category: 'LISOS', tag: '', supplier: 'ROSSET',
   previewColors: ['#5b3325','#ee0b1e','#eae4d3','#dc4e6b','#415a7a'],
   desc: 'Com toque suave e super confortável, o tecido segue cada movimento do corpo com facilidade. Desenvolvido com a microfibra de poliamida juntamente com a força do elastano, o artigo exerce ótima compressão sobre a musculatura, confere elasticidade e power adequados para valorizar a silhueta sem apertar ou causar desconforto. Ideal para a confecção de peças esportivas como leggings, bermudas e tops, assim como roupas confortáveis para o lazer.', 
   pages: '', colorsTitle: 'Cores Disponíveis',
@@ -597,7 +597,7 @@ SANTA_CONSTANCIA: {
 
   largura: '163m', rendimento: '1,68m/kg', gramatura: '365g/m²', composicao: 'Poliamida 88%, Elastano: 12%', 
   attributes: ['01.FITNESS.jpg','16.COMPRESSAO.jpg','12.CONFORTO-TERMICO.jpg','06.SOLAR.jpg','05.TOQUE-MACIO.jpg'],
-  bookUrl: 'book.htmlfabric=NEW_ZELAND'
+  bookUrl: 'book.html?fabric=NEW_ZEALAND'
 },
 
  NAKAY: {

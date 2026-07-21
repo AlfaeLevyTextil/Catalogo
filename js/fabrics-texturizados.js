@@ -964,7 +964,7 @@ const FABRICS_TEXTURIZADOS = {
 
   JACQUARD_VICHY: {
     name: 'Jacquard Vichy', category: 'TEXTURIZADOS', tag: 'Moda Praia · Moda Casual',
-    previewColors: ['#d8dad1', '#ffffff', '#ce523b'],
+    previewColors: ['#3b4571', '#D8C8A8', '#a26302', '#000000', '#744430'],
     desc: 'O tecido Jacquard Vichy destaca se pela estrutura dupla e textura tridimensional que une a elegância atemporal do xadrez a uma construção sofisticada e versátil composta por poliamida opaca com elastano e fio tinto o que dispensa o tingimento tradicional e torna o processo produtivo mais eficiente e controlado. Um grande diferencial deste artigo é o seu avesso trabalhado que permite a exploração criativa de ambos os lados da malha em uma mesma peça criando contrastes visuais interessantes em detalhes como golas barras e punhos sendo um material ideal para transitar entre os segmentos de moda praia casual e resortwear agregando valor estético às coleções. Além do apelo visual o tecido garante alta segurança e performance técnica contando com certificação OEKO TEX que atesta a ausência de substâncias nocivas e proteção FPU 50 mais vitalícia conquistada pela aplicação de dióxido de titânio diretamente na massa da poliamida garantindo durabilidade e proteção solar permanente para o usuário',
     pages: 1, colorsTitle: 'Variações',
     colors: [
@@ -1007,7 +1007,7 @@ const FABRICS_TEXTURIZADOS = {
 
   JACQUARD_ZIGONI: {
     name: 'Jacquard Zigoni', category: 'TEXTURIZADOS', tag: 'Moda Praia · Moda Casual',
-    previewColors: ['#d8dad1', '#ffffff', '#ce523b'],
+    previewColors: ['#ce523b','#744430', '#3b4571','#fef1e6'],
     desc: 'A malha Jacquard ZIGONI combina design exclusivo, textura sofisticada e eficiência produtiva em uma única base. O relevo sutil adiciona profundidade visual e valor estético, enquanto a composição em poliamida opaca com elastano proporciona toque extremamente macio, conforto superior e excelente vestibilidade, acompanhando os movimentos do corpo com naturalidade. Versátil, a ZIGONI transita com facilidade entre a moda praia e propostas de moda casual, ampliando as possibilidades criativas para coleções contemporâneas. Disponível em seis variantes de cores, todas produzidas com fios tintos. Por isso, os artigos passam apenas pelo processo de lavagem, dispensando o tingimento e eliminando uma etapa produtiva. O resultado é mais eficiência, maior controle de processo e redução no consumo de recursos, sem abrir mão da riqueza visual e da qualidade do produto final. FPU 50+ vitalício devido ao fio de poliamida ser enriquecido com dióxido de titânio em sua massa. Possui certificação OEKO-TEX, garantindo que não há químicos nocivos aos usuários em sua fabricação.',
     pages: 1, colorsTitle: 'Variações',
     colors: [
