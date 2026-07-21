@@ -10,6 +10,7 @@ const USO_ICONS = ['01.FITNESS.jpg','02.PRAIA2.jpg','04.MODA.jpg','10.LINGERIE.j
 
 let currentLightboxImages = [];
 let currentLightboxIndex  = 0;
+let savedScrollPosition   = 0; // Salva posição de scroll ao abrir modal
 
 /* ── Helpers ───────────────────────────────────────────────── */
 function pageFile(n) {
@@ -296,6 +297,7 @@ function openFabric(key) {
   renderColorGrid(f, key);
 
   document.getElementById('fabricModal').classList.add('open');
+  savedScrollPosition = window.scrollY; // Salva posição antes de bloquear scroll
   document.body.style.overflow = 'hidden';
 
   // Atualiza botão da sacola para este tecido
@@ -309,6 +311,7 @@ function closeFabricModal(e) {
 function closeFabricModalDirect() {
   document.getElementById('fabricModal').classList.remove('open');
   document.body.style.overflow = '';
+  window.scrollTo(0, savedScrollPosition); // Restaura posição de scroll
   const floatBtn = document.getElementById('wppFloat');
   if (floatBtn && window.buildWppLink) floatBtn.href = window.buildWppLink();
 }
