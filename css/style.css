@@ -78,8 +78,8 @@ nav{
 .hero-desc-dist p{font-size:13.5px;line-height:1.7;color:rgba(220,200,240,0.85);font-weight:300;}
 .hero-desc-dist strong{color:var(--gold-light);font-weight:500;}
 
-.hero-desc-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px;margin-bottom:0;text-align:left;}
-.hero-desc-item{display:flex;align-items:flex-start;gap:9px;font-size:13px;line-height:1.65;color:rgba(210,185,235,0.75);font-weight:300;}
+.hero-desc-grid{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:0;text-align:center;max-width:400px;margin-left:auto;margin-right:auto;margin-top:16px;}
+.hero-desc-item{display:flex;align-items:flex-start;gap:9px;font-size:13px;line-height:1.65;color:rgba(210,185,235,0.75);font-weight:300;justify-content:center;}
 .hero-desc-item strong{color:rgba(232,197,90,0.95);font-weight:500;}
 .hero-desc-icon{color:var(--gold);font-size:11px;flex-shrink:0;margin-top:3px;opacity:0.8;}
 .hero-desc-cta{font-size:12px;letter-spacing:2px;color:rgba(200,160,58,0.65);font-style:italic;margin-top:18px;}
