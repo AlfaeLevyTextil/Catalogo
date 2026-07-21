@@ -18,6 +18,7 @@ const VENDEDORES = {
   junior:   { nome: 'Junior',   tel: '5511988245385' },
   giuliano: { nome: 'Giuliano', tel: '5511932124107' },
   mara:     { nome: 'Mara',     tel: '5511914932913' },
+  stephanie:{ nome: 'Stephanie',tel: '5511922738352' },
 };
 
 const WPP_DEFAULT_TEL  = '5511957717470';
