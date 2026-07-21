@@ -58,6 +58,19 @@ function renderSupplierLabels() {
   });
 }
 
+// ── Preserva scroll position ao retornar do book ─────────────
+window.addEventListener('pageshow', () => {
+  const savedScroll = sessionStorage.getItem('indexScrollPos');
+  if (savedScroll !== null) {
+    window.scrollTo(0, parseInt(savedScroll, 10));
+    sessionStorage.removeItem('indexScrollPos');
+  }
+});
+
+window.addEventListener('pagehide', () => {
+  sessionStorage.setItem('indexScrollPos', window.scrollY.toString());
+});
+
 // ── Abre tecido automaticamente via URL ?fabric=CHAVE ─────────
 window.addEventListener('DOMContentLoaded', () => {
   renderFabricCardPreviews();
