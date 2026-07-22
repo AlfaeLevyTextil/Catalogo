@@ -736,6 +736,17 @@ bookUrl: 'book.html?fabric=NAGOYA',
     attributes: ['02.PRAIA2.jpg','04.MODA.jpg','12.SEGUNDAPELE.jpg','13.ELASTICIDADE1.jpg','06.SOLAR.jpg','1.TEX.jpg'],
     bookUrl: 'book.html?fabric=SATURNO',
   },
+SUPLEX_LIGHT: {
+  name: 'Suplex Light', category: 'LISOS', tag: '', 
+  previewColors: ['#52031b','#cb0428','#4f4a9a','#862181','#096e77'],
+  desc: '', 
+  pages: '', colorsTitle: 'Cores Disponíveis',
+  colors: [
+  ],
+  largura: '', rendimento: '', gramatura: '', composicao: '', 
+  attributes: [],
+  bookUrl: 'book.htmlfabric=SUPLEX_LIGHT'
+},
 
  SUPLEX_POWER: {
   name: 'Suplex Power', category: 'LISOS', tag: '', 

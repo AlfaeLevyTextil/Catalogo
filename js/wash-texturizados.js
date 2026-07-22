@@ -67,7 +67,24 @@ const WASH_TEXTURIZADOS = {
     {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
   ],
 
-  CRUNCH_LISTRADO:        [...WASH_DEFAULT],
+  CROCHETE_ROMANTIC:        [
+    {img:'images/lavagem/MAX-40.jpg',        label:'LAVAR EM TEMPERATURA MÁX. 40°C, SUAVE'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/SECAR-MIN.jpg',             label:'POSSIVÉL SECAR EM MÁQUINA, TEMPERATURA BAIXA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/PASSAR-MAX-100.jpg',        label:'PASSAR EM TEMPERATURA MÁX. 110°C'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
+  CRUNCH_LISTRADO:        [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
   CRUNCH_POA: [
     {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
     {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
@@ -118,10 +135,34 @@ JACQUARD_ARTSAN:          [
 
   JACQUARD_DEGRADE:       [...WASH_DEFAULT],
   JACQUARD_GITA:          [...WASH_DEFAULT],
-  JACQUARD_KASHIMIR:      [...WASH_DEFAULT],
+  JACQUARD_KASHIMIR:      [
+     {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
   JACQUARD_LEAF:          [...WASH_DEFAULT],
-  JACQUARD_LINES:         [...WASH_DEFAULT],
-  JACQUARD_NILO:          [...WASH_DEFAULT],
+  JACQUARD_LINES:         [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
+  JACQUARD_NILO:          [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
   JACQUARD_ONCA:          [...WASH_DEFAULT],
   JACQUARD_PIQUET:        [...WASH_DEFAULT],
   JACQUARD_VICHY:         [
@@ -148,11 +189,26 @@ JACQUARD_ARTSAN:          [
   LASTEX_GLOSS:           [...WASH_DEFAULT],
   LASTEX_LIGHT:           [...WASH_DEFAULT],
   LIS:                    [...WASH_DEFAULT],
-  LUREX_3_DOURADO:        [...WASH_DEFAULT],
+  LUREX_3_DOURADO:        [
+     {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
   LUREX_3_PRATA:          [...WASH_DEFAULT],
   LUREX_4_E_OUTROS:       [...WASH_DEFAULT],
   LUX_DUBAI:              [...WASH_DEFAULT],
-  LYCRA_JEANS:            [...WASH_DEFAULT],
+  LYCRA_JEANS:            [
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+    {img:'images/lavagem/PASSAR-MAX-150.jpg',        label:'PASSAR EM TEMPERATURA MÁX. 150°C'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+  ],
+
   MALIBU:                 [...WASH_DEFAULT],
   MALTE: [
     {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
@@ -165,14 +221,32 @@ JACQUARD_ARTSAN:          [
 
   MARRAKESH:              [...WASH_DEFAULT],
   MARSELHA:               [...WASH_DEFAULT],
-  MONTANA:                [...WASH_DEFAULT],
+  MONTANA:                [
+    {img:'images/lavagem/MAX-30-1.jpg',        label:'LAVAR EM TEMPERATURA MÁX. 30°C, SUAVE'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/SECAR-MIN.jpg',    label:'POSSIVÉL SECAR EM MÁQUINA, TEMPERATURA BAIXA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+    {img:'images/lavagem/UMIDO.jpg',                 label:'LIMPEZA A ÚMIDO'},
+  ],
+
   POINTS:                 [...WASH_DEFAULT],
   POSITANO:               [...WASH_DEFAULT],
   ROCKS:                  [...WASH_DEFAULT],
   SAINT_MARTIN:           [...WASH_DEFAULT],
   SEREIA:                 [...WASH_DEFAULT],
   SUKUZA:                 [...WASH_DEFAULT],
-  TEXAS:                  [...WASH_DEFAULT],
+  TEXAS:                  [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+    {img:'images/lavagem/UMIDO.jpg',                 label:'LIMPEZA A ÚMIDO'},
+  ],
+
   VERONA: [
     {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
     {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},

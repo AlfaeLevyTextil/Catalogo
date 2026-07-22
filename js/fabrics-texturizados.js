@@ -156,6 +156,10 @@ const FABRICS_TEXTURIZADOS = {
       { name: 'Rosa', hex: '#e25185' },
       { name: 'Vinho', hex: '#6a2933' },
     ],
+
+    largura: '1,40', rendimento: '1,5m por metro', gramatura: '220g/m²', composicao: '74% Poliamida, 8% Elastano, 18% Poliéster',
+    attributes: ['02.PRAIA2.jpg','04.MODA.jpg','05.TOQUE-MACIO.jpg','13.ELASTICIDADE1.jpg'],
+    bookUrl: 'book.html?fabric=CANELADO_BLACKOUT',
   },
 
   CANELADO_DE_COMPRESSAO: {
