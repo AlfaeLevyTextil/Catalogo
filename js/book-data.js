@@ -76,6 +76,8 @@ const BOOK_DATA = {
   CRUNCH_POA:             { name:'Crunch Poá',             category:'TEXTURIZADOS', tag:'Moda Praia · Moda Casual',        bookPages:0 },
   DIAMOND:                { name:'Diamond',                category:'TEXTURIZADOS', tag:'Fitness · Lingerie',              bookPages:0 },
   DOTS:                   { name:'Dots',                   category:'TEXTURIZADOS', tag:'Moda Praia · Moda Casual',        bookPages:0 },
+  JACQUARD_ALGAE:         { name:'Jacquard Algae',         category:'TEXTURIZADOS', tag:'Moda Praia · Moda Casual',        bookPages:0 },
+  JACQUARD_ARTSAN:        { name:'Jacquard Artsan',        category:'TEXTURIZADOS', tag:'Moda Praia · Moda Casual',        bookPages:0 },
   JACQUARD_BROCADO:       { name:'Jacquard Brocado',       category:'TEXTURIZADOS', tag:'Moda Praia · Fitness',            bookPages:0 },
   JACQUARD_CONCHAS:       { name:'Jacquard Conchas',       category:'TEXTURIZADOS', tag:'Moda Praia · Moda',               bookPages:0 },
   JACQUARD_CONCHINHAS:    { name:'Jacquard Conchinhas',    category:'TEXTURIZADOS', tag:'Moda Praia · Moda',               bookPages:0 },

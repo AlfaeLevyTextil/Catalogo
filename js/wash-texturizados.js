@@ -20,6 +20,7 @@ const WASH_TEXTURIZADOS = {
     {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
     {img:'images/lavagem/SECAR-HORIZONTAL.jpg',      label:'SECAR NA HORIZONTAL'},
   ],
+
   CANELADO_DIAGONAL:      [...WASH_DEFAULT],
   CANELADO_EDEN:          [...WASH_DEFAULT],
   CANELADO_FUJI: [
@@ -30,6 +31,7 @@ const WASH_TEXTURIZADOS = {
     {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
     {img:'images/lavagem/SECAR-HORIZONTAL.jpg',      label:'SECAR NA HORIZONTAL'},
   ],
+
   CANELADO_LENATEX:       [...WASH_DEFAULT],
   CANELADO_PILLE: [
     {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
@@ -39,6 +41,7 @@ const WASH_TEXTURIZADOS = {
     {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
     {img:'images/lavagem/SECAR-HORIZONTAL.jpg',      label:'SECAR NA HORIZONTAL'},
   ],
+
   CANELADO_POLIESTER:     [...WASH_DEFAULT],
   CANELADO_POWER:         [...WASH_DEFAULT],
   CANELADO_TREND_MOVE: [
@@ -50,6 +53,7 @@ const WASH_TEXTURIZADOS = {
     {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
     {img:'images/lavagem/UMIDO.jpg',                 label:'LIMPEZA A ÚMIDO'},
   ],
+
   CANELADO_WONDER:        [...WASH_DEFAULT],
   CARMEL:                 [...WASH_DEFAULT],
   CREPINHO:               [...WASH_DEFAULT],
@@ -62,6 +66,7 @@ const WASH_TEXTURIZADOS = {
     {img:'images/lavagem/PASSAR-MAX-100.jpg',        label:'PASSAR EM TEMPERATURA MÁX. 110°C'},
     {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
   ],
+
   CRUNCH_LISTRADO:        [...WASH_DEFAULT],
   CRUNCH_POA: [
     {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
@@ -71,11 +76,46 @@ const WASH_TEXTURIZADOS = {
     {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
     {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
   ],
+
   DIAMOND:                [...WASH_DEFAULT],
   DOTS:                   [...WASH_DEFAULT],
-  JACQUARD_BROCADO:       [...WASH_DEFAULT],
+  JACQUARD_ALGAE:         [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
+JACQUARD_ARTSAN:          [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
+  JACQUARD_BROCADO:       [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+  
   JACQUARD_CONCHAS:       [...WASH_DEFAULT],
-  JACQUARD_CONCHINHAS:    [...WASH_DEFAULT],
+  JACQUARD_CONCHINHAS:    [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',        label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
   JACQUARD_DEGRADE:       [...WASH_DEFAULT],
   JACQUARD_GITA:          [...WASH_DEFAULT],
   JACQUARD_KASHIMIR:      [...WASH_DEFAULT],
@@ -84,10 +124,26 @@ const WASH_TEXTURIZADOS = {
   JACQUARD_NILO:          [...WASH_DEFAULT],
   JACQUARD_ONCA:          [...WASH_DEFAULT],
   JACQUARD_PIQUET:        [...WASH_DEFAULT],
-  JACQUARD_VICHY:         [...WASH_DEFAULT],
+  JACQUARD_VICHY:         [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'}, 
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
   JACQUARD_WINNER:        [...WASH_DEFAULT],
   JACQUARD_YAHALOM:       [...WASH_DEFAULT],
-  JACQUARD_ZIGONI:        [...WASH_DEFAULT],
+  JACQUARD_ZIGONI:        [
+    {img:'images/lavagem/LAVAGEM-MANUAL.jpg',        label:'LAVAR DE FORMA MANUAL'},
+    {img:'images/lavagem/NAO-ALVEJAR-BRANQUEAR.jpg', label:'NÃO ALVEJAR, NÃO BRANQUEAR'},
+    {img:'images/lavagem/NAO-SECAR-SECADORA.jpg',    label:'NÃO SECAR EM MÁQUINA SECADORA'},
+    {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
+    {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
+    {img:'images/lavagem/NAO-LAVAR-SECO.jpg',        label:'NÃO LAVAR A SECO'},
+  ],
+
   JACQUARD_ZIGZAG_PUZZLE: [...WASH_DEFAULT],
   LASTEX_GLOSS:           [...WASH_DEFAULT],
   LASTEX_LIGHT:           [...WASH_DEFAULT],
@@ -106,6 +162,7 @@ const WASH_TEXTURIZADOS = {
     {img:'images/lavagem/NAO-PASSAR.jpg',            label:'NÃO PASSAR'},
     {img:'images/lavagem/SECAR-VARAL.jpg',           label:'SECAR EM VARAL, À SOMBRA'},
   ],
+
   MARRAKESH:              [...WASH_DEFAULT],
   MARSELHA:               [...WASH_DEFAULT],
   MONTANA:                [...WASH_DEFAULT],

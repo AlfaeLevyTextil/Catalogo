@@ -74,19 +74,6 @@ const FABRICS_TEXTURIZADOS = {
     bookUrl: 'book.html?fabric=AREZZO',
   },
 
-  ARTSAN: {
-    name: 'Artsan', category: 'TEXTURIZADOS', tag: 'Moda Praia',
-    previewColors: [],
-    desc: 'Com visual marcante e textura em evidência, a malha Jacquard ARTISAN é sinônimo de charme e sofisticação. Seu desenho exclusivo em alto relevo remete ao tricô artesanal, com tranças e listras que se combinam em uma composição geométrica cheia de estilo e personalidade. Produzida em poliamida opaca com elastano, oferece toque macio, elasticidade equilibrada e conforto que dura o dia todo, além de excelente cobertura. Extremamente versátil, transita com facilidade entre moda praia e produções casuais. Possui em sua grade 2 tons ROCK SOLID COLORS, um tingimento especial, um processo exclusivo SPA onde a cor possui alta solidez à lavagem até 40ºC. A variante PAINT leva o selo sustentável GREEN FIBER, pois é tecida em fio tinto preto, ou seja, é apenas LAVADA e não sofre tingimento, economizando até 70% de água e energia elétrica em seu processo. FPU 50+ vitalício devido ao fio de poliamida ser enriquecido com dióxido de titânio em sua massa. Possui certificação OEKO-TEX, garantindo que não há químicos nocivos aos usuários em sua fabricação.',
-    pages: 1, colorsTitle: 'Cores Disponíveis',
-    colors: [
-
-    ],
-    largura:'1,32m', rendimento: '180m/kg', gramatura: '420g', composicao: '91% Poliamida, 9% Elastano', 
-    attributes:  ['02.PRAIA2.jpg','04.MODA.jpg','06.SOLAR.jpg'],
-    bookUrl: 'book.html?fabric=ARTSAN'
-  },
-
   ATHLETIC_POWER: {
     name: 'Athletic Power UV', category: 'TEXTURIZADOS', tag: '',
     previewColors: [],
@@ -755,10 +742,46 @@ const FABRICS_TEXTURIZADOS = {
   { name: '8310 Twist', hex: '#00c96e'},
   { name: '1343 Zig Zag', hex: '#f09189' },
     ],
+
+    largura: '1,55m', rendimento: '3,69m/kg', gramatura: '175g/m²', composicao: '87% Poliamida, 13% Elastano',
+    attributes: ['02.PRAIA2.jpg','04.MODA.jpg','20.CAIMENTO.jpg','12.CONFORTO-TERMICO.jpg','11.RESPIRABILIDADE.jpg'],
+    bookUrl: 'book.html?fabric=DOTS',
+  },
+
+  JACQUARD_ALGAE: {
+    name: 'Jacquard Algae', category: 'TEXTURIZADOS', tag: 'Moda Praia · Moda Casual',
+    previewColors: ['#000000', '#FFFFFF', '#dfc3a8', '#c2b59e', '#f0eed7', '#7E8F3A', '#744430'],
+    desc: 'A malha JACQUARD ALGAE possui textura trabalhada com retenção e bastante volume, enriquecendo e agregando valor às peças, mesmo quando em modelagens básicas. Em poliamida opaca com elastano, é comercialmente usada com o lado avesso para fora. Versátil, possui elasticidade e compressão ajustadas. FPU 50+ vitalício.',
+    pages: 1, colorsTitle: 'Cores Disponíveis',
+    colors: [
+      { name: 'Preto/Branco', hex: ['#000000', '#FFFFFF'] },
+      { name: 'Bege/Branco', hex: ['#dfc3a8', '#FFFFFF'] },
+      { name: 'Nude', hex: '#bb9a81' },
+      { name: 'Off-White', hex: '#f0eed7' },
+      { name: 'Oliver', hex: '#7E8F3A' },
+      { name: 'Terra', hex: '#744430' },
+    ],
+
+    largura: '1,60m', rendimento: '2,08m/kg', gramatura: '300g', composicao: '89% Poliamida, 11% Elastano',
+    attributes: ['02.PRAIA2.jpg','04.MODA.jpg','13.ELASTICIDADE1.jpg','06.SOLAR.jpg'],
+    bookUrl: 'book.html?fabric=JACQUARD_ALGAE',
+  },
+
+   JACQUARD_ARTSAN: {
+    name: 'Jacquard Artsan', category: 'TEXTURIZADOS', tag: 'Moda Praia · Moda Casual',
+    previewColors: [],
+    desc: 'Com visual marcante e textura em evidência, a malha Jacquard ARTISAN é sinônimo de charme e sofisticação. Seu desenho exclusivo em alto relevo remete ao tricô artesanal, com tranças e listras que se combinam em uma composição geométrica cheia de estilo e personalidade. Produzida em poliamida opaca com elastano, oferece toque macio, elasticidade equilibrada e conforto que dura o dia todo, além de excelente cobertura. Extremamente versátil, transita com facilidade entre moda praia e produções casuais. Possui em sua grade 2 tons ROCK SOLID COLORS, um tingimento especial, um processo exclusivo SPA onde a cor possui alta solidez à lavagem até 40ºC. A variante PAINT leva o selo sustentável GREEN FIBER, pois é tecida em fio tinto preto, ou seja, é apenas LAVADA e não sofre tingimento, economizando até 70% de água e energia elétrica em seu processo. FPU 50+ vitalício devido ao fio de poliamida ser enriquecido com dióxido de titânio em sua massa. Possui certificação OEKO-TEX, garantindo que não há químicos nocivos aos usuários em sua fabricação.',
+    pages: 1, colorsTitle: 'Cores Disponíveis',
+    colors: [
+
+    ],
+    largura:'1,32m', rendimento: '180m/kg', gramatura: '420g', composicao: '91% Poliamida, 9% Elastano', 
+    attributes:  ['02.PRAIA2.jpg','04.MODA.jpg','06.SOLAR.jpg'],
+    bookUrl: 'book.html?fabric=ARTSAN'
   },
 
   JACQUARD_BROCADO: {
-    name: 'Jacquard Brocado', category: 'TEXTURIZADOS', tag: 'Moda Praia · Moda',
+    name: 'Jacquard Brocado', category: 'TEXTURIZADOS', tag: 'Moda Praia · Moda Casual',
     previewColors: ['#e4c22b', '#2A4AA0', '#90bcf4', '#ffffff', '#76243a', '#5d5d60', '#f20732'],
     desc: 'A malha JACQUARD BROCADO possui textura trabalhada com retenção e bastante volume, enriquecendo e agregando valor às peças, mesmo quando em modelagens básicas. Em poliamida opaca com elastano, é comercialmente usada com o lado avesso para fora. Versátil, possui elasticidade e compressão ajustadas. FPU 50+ vitalício.',
     pages: 1, colorsTitle: 'Cores Disponíveis',

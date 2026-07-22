@@ -218,7 +218,7 @@ DRY_SPORT: {
   FLICKER_METALIZADO: {
   name: 'Flicker Metalizado', category: 'LISOS', tag: '', 
   previewColors: [],
-  desc: '', 
+  desc: 'Desenvolvida com tecnologia Kettenstuhl, a malha FLICKER combina média gramatura com propriedades exclusivas para um desempenho superior. Sua estrutura é composta de POLIAMIDA TRILOBAL BRILHANTE e elastano, o que confere à malha um acabamento de alto brilho, um toque extremamente suave e sedoso, além de uma excelente resistência ao desgaste e durabilidade. Com alto nível de elasticidade em ambas as direções, proporciona ajuste perfeito ao corpo, ótima respirabilidade e rápida secagem, tornando-a ideal para peças de moda praia que exigem conforto e durabilidade em ambientes de alta umidade e exposição solar. Pode ser utilizada em peças de performance, pois sua estrutura oferece suporte sem comprometer a boa cobertura, o conforto e a flexibilidade. FPU 50+ vitalício devido ao fio de poliamida ser enriquecido com dióxido de titânio em sua massa. Possui certificação OEKO-TEX, garantindo que não há químicos nocivos aos usuários em sua fabricação.', 
   pages: 1, colorsTitle: 'Cores Disponíveis',
   colors: [
       { name: 'Ferrugo', hex: '#b94c0b' },
@@ -226,8 +226,8 @@ DRY_SPORT: {
       { name: 'Royal', hex: '#2744db'},
       { name: 'Spoonbill', hex: '#d9abb5' },
   ],
-  largura: '', rendimento: '', gramatura: '', composicao: '', 
-  attributes: [],
+  largura: '1,5m', rendimento: '2,9m/kg', gramatura: '230g', composicao: '83% Poliamida, 17% Elastano', 
+  attributes: ['02.PRAIA2.jpg','14.BRILHANTE.jpg','16.COMPRESSAO.jpg','06.SOLAR.jpg'],
   bookUrl: 'book.htmlfabric=FLICKER_METALIZADO'
 },
 
@@ -730,13 +730,8 @@ bookUrl: 'book.html?fabric=NAGOYA',
       { name: 'Barolo', hex: '#4b2127' },
       { name: 'Cinza Silver', hex: '#767771' },
       { name: 'Paint/Preto', hex: '#08090b' },
-
-      
-
-      
-      
-    
     ],
+
     largura: '1,65m', rendimento: '4,04m/kg', gramatura: '150g/m', composicao: '91,21% Poliamida, 8,79% Elastano',
     attributes: ['02.PRAIA2.jpg','04.MODA.jpg','12.SEGUNDAPELE.jpg','13.ELASTICIDADE1.jpg','06.SOLAR.jpg','1.TEX.jpg'],
     bookUrl: 'book.html?fabric=SATURNO',
